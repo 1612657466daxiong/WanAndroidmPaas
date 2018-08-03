@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_cancel_press.png",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable-hdpi\\download_cancel_press.png"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\splashbg.jpg",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable-hdpi\\splashbg.jpg"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_cancel_normal.png",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable-hdpi\\download_cancel_normal.png"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_menu.png",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable-hdpi\\ic_action_menu.png"
+    }
+]

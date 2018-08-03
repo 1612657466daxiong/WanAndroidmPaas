@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_cancel_btn_selector.xml",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable\\download_cancel_btn_selector.xml"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_icon.png",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable\\download_icon.png"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\download_progress_horizontal.xml",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable\\download_progress_horizontal.xml"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yw_1222.jpg",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\drawable\\yw_1222.jpg"
+    }
+]

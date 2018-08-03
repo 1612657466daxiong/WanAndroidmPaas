@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\init.xml",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\layout\\init.xml"
+    },
+    {
+        "merged": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\download_progress.xml",
+        "source": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\layout\\download_progress.xml"
+    }
+]

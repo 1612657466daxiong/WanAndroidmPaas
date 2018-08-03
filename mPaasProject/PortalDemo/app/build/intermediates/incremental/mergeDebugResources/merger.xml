@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res"/><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\build\generated\res\rs\debug"/><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res"><file name="download_cancel_btn_selector" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable\download_cancel_btn_selector.xml" qualifiers="" type="drawable"/><file name="download_icon" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable\download_icon.png" qualifiers="" type="drawable"/><file name="download_progress_horizontal" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable\download_progress_horizontal.xml" qualifiers="" type="drawable"/><file name="yw_1222" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable\yw_1222.jpg" qualifiers="" type="drawable"/><file name="download_cancel_normal" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-hdpi\download_cancel_normal.png" qualifiers="hdpi-v4" type="drawable"/><file name="download_cancel_press" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-hdpi\download_cancel_press.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_menu" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-hdpi\ic_action_menu.png" qualifiers="hdpi-v4" type="drawable"/><file name="splashbg" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-hdpi\splashbg.jpg" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_menu" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-mdpi\ic_action_menu.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_menu" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-xhdpi\ic_action_menu.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_menu" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-xxhdpi\ic_action_menu.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_menu" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\drawable-xxxhdpi\ic_action_menu.png" qualifiers="xxxhdpi-v4" type="drawable"/><file name="download_progress" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\layout\download_progress.xml" qualifiers="" type="layout"/><file name="init" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\layout\init.xml" qualifiers="" type="layout"/><file name="ic_launcher" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\mipmap-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\mipmap-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\mipmap-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="mipmap"/><file name="ic_launcher" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\mipmap-xxxhdpi\ic_launcher.png" qualifiers="xxxhdpi-v4" type="mipmap"/><file path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\values\colors.xml" qualifiers=""><color name="white_color">#ffffff</color></file><file path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\values\ids.xml" qualifiers=""><item name="about_process_icon" type="id">false</item><item name="relativeLayout1" type="id">false</item><item name="update_cancel_btn" type="id">false</item><item name="download_process_title_txt" type="id">false</item><item name="download_process_bar" type="id">false</item><item name="progress_text" type="id">false</item><item name="promt" type="id">false</item></file><file path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\values\public.xml" qualifiers=""><public id="0x7f020001" name="download_cancel_btn_selector" type="drawable"/><public id="0x7f020002" name="download_cancel_normal" type="drawable"/><public id="0x7f020003" name="download_cancel_press" type="drawable"/><public id="0x7f020004" name="download_icon" type="drawable"/><public id="0x7f020005" name="download_progress_horizontal" type="drawable"/><public id="0x7f030000" name="download_progress" type="layout"/><public id="0x7f050005" name="notify_title" type="style"/><public id="0x7f050006" name="notify_progress" type="style"/><public id="0x7f050007" name="Download_ProgressBar_Horizontal" type="style"/><public id="0x7f060001" name="about_process_icon" type="id"/><public id="0x7f060002" name="update_cancel_btn" type="id"/><public id="0x7f060003" name="download_process_title_txt" type="id"/><public id="0x7f060004" name="download_process_bar" type="id"/><public id="0x7f060005" name="progress_text" type="id"/><public id="0x24030000" name="AppTheme" type="style"/></file><file path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">wanAndroidDX</string></file><file path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppThemeNew" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+    </style><style name="share_select_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:color/transparent</item>
+    </style><style name="notify_title">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#cccccc</item>
+    </style><style name="notify_progress">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#999999</item>
+    </style><style name="Download_ProgressBar_Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/download_progress_horizontal</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">6dip</item>
+        <item name="android:maxHeight">6dip</item>
+    </style><style name="h5_transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style><style name="Transparent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style><style name="tablauncher_theme" parent="android:style/Theme.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style><style name="TransparentNoAnimationTheme" parent="AppThemeNew">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style></file></source><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\build\generated\res\rs\debug"/><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\debug\res"/></dataSet><mergedItems/></merger>

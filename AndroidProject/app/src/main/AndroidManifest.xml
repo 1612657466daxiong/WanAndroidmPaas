@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yqhd.wanandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--这里是 hotpatch、检测更新等的网关-->
+        <meta-data
+            android:name="mpaasapi"
+            android:value="https://cn-hangzhou-component-gw.cloud.alipay.com/mgw.htm"/>
+        <!-- 移动网关 endpoint 配置 -->
+        <meta-data
+            android:name="mobilegw.url"
+            android:value="https://cn-hangzhou-mgs-gw.cloud.alipay.com/mgw.htm"/>
+        <!-- 移动网关版本信息-->
+        <meta-data
+            android:name="mobilegw.rpcVersion"
+            android:value="V2"/>
+        <!-- 移动网关需要 appkey 来做加密-->
+        <meta-data
+            android:name="appkey"
+            android:value="01FFED2301720_ANDROID"/>
+        <!-- workspace id，金融云环境相关的配置 -->
+        <meta-data
+            android:name="workspaceId"
+            android:value="default"/>
+        <!-- 应用分析 endpoint 配置 -->
+        <meta-data
+            android:name="logging.gateway"
+            android:value="https://cn-hangzhou-mas-log.cloud.alipay.com"/>
+        <!-- 消息推送 endpoint 配置 -->
+        <meta-data
+            android:name="rome.push.gw"
+            android:value="cn-hangzhou-mps-link.cloud.alipay.com"/>
+        <!-- 消息推送 端口设置 -->
+        <meta-data
+            android:name="rome.push.port"
+            android:value="443"/>
+        <!-- 消息推送需要 appId 来确定消息的来源 -->
+        <meta-data
+            android:name="ALIPUSH_APPID"
+            android:value="01FFED2301720"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

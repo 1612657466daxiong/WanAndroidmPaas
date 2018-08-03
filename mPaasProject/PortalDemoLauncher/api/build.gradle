@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.alipay.library'
+apply plugin: 'android-apt'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    apt 'com.alipay.android.tools:androidannotations:2.7.1@jar'
+    provided "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:util@jar"
+    provided "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:api@jar"
+    provided "com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756:mpaasnebulabiz@jar"
+    provided "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:rpc@jar"
+    provided "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:api@jar"
+    provided "com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530:api@jar"
+    provided "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:nebula@jar"
+    provided "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:tianyan@jar"
+    provided "com.alipay.android.phone.mobilesdk:framework-api:2.1.1@jar"
+    provided "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:api@jar"
+    provided "com.alipay.android.phone.securitycommon:aliupgrade-rpc:1.0.1@jar"
+    provided "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:api@jar"
+    provided "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:biz@jar"
+    provided "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:api@jar"
+    provided "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:logging@jar"
+    provided "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:tianyan@jar"
+    provided "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957:api@jar"
+    provided "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:api@jar"
+    provided "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:auto-tracker@jar"
+    provided "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028:api@jar"
+    provided "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.170613203916:api@jar"
+    provided "com.alipay.android.phone.rome:pushsdk-longlink:1.3.0@jar"
+
+}

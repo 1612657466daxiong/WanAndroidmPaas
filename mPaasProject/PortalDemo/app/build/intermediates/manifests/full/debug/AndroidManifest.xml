@@ -1,0 +1,272 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.0.0" package="com.yqhd.wanandroid">
+
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26"/>
+
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <!-- 浣跨敤鐗规�у０鏄庯紝鍖呭惈涓嶉渶瑕佺殑鍜屼竴瀹氶渶瑕佺殑 -->
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+
+    <uses-permission android:name="com.alipay.permission.ALIPAY_UPDATE_CREDENTIALS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="com.yunos.permission.TYID_MGR_SERVICE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.alipay.permission.ALIPAY_USE_CREDENTIALS"/>
+    <uses-permission android:name="com.aliyun.permission.TYID_MGR_SERVICE"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="com.taobao.permission.UPDATE_CREDENTIALS"/>
+    <uses-permission android:name="com.yunos.permission.STORAGE_SERVICE"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.yunos.permission.TYID_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="com.taobao.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.aliyun.permission.TYID_SERVICE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="com.aliyun.permission.STORAGE_SERVICE"/>
+    <!-- 鍩庡競涓�鍗￠�氭潈闄� -->
+    <uses-permission android:name="nxp.permission.ACCESS_WALLET_SERVICE"/>
+    <uses-permission android:name="com.samsung.android.authservice.permission.READ_CONTENT_PROVIDER"/>
+    <!-- 鎸囩汗鏀粯涓氬姟 -->
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.MANAGE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="false" android:debuggable="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.alipay.mobile.quinox.LauncherApplication" android:theme="@style/AppThemeNew">
+
+        <!-- 鐩戝惉application鍚姩杩囩▼ -->
+        <meta-data android:name="agent.application" android:value="com.yqhd.wanandroid.launcher.MockLauncherApplicationAgent"/>
+
+        <!-- 涓氬姟璁剧疆娆㈣繋鐣岄潰锛岀瓑寰呮鏋跺垵濮嬪寲瀹屾垚 -->
+        <meta-data android:name="agent.activity" android:value="com.yqhd.wanandroid.launcher.MockLauncherActivityAgent"/>
+        <!-- 鍒濆鍔犺浇鏃剁殑椤甸潰 -->
+        <meta-data android:name="agent.activity.layout" android:value="init"/>
+
+        <!-- mpaasapi -->
+        <meta-data android:name="mpaasapi" android:value="https://cn-hangzhou-component-gw.cloud.alipay.com/mgw.htm"/>
+
+        <!-- rpc缃戝叧 -->
+        <meta-data android:name="mobilegw.url" android:value="https://cn-hangzhou-mgs-gw.cloud.alipay.com/mgw.htm"/>
+        <!-- 鏃犻檺淇濋晼appkey,鐢ㄤ簬鍔犲瘑 -->
+        <meta-data android:name="appkey" android:value="01FFED2301720_ANDROID"/>
+        <!-- 鏃犻檺淇濋晼AppSecret,鐢ㄤ簬鍔犲瘑 -->
+        <meta-data android:name="AppSecret" android:value=""/>
+
+        <!-- push鐨勭綉鍏� -->
+        <meta-data android:name="rome.push.gw" android:value="cn-hangzhou-mps-link.cloud.alipay.com"/>
+        <!-- push鐨勭鍙� -->
+        <meta-data android:name="rome.push.port" android:value="443"/>
+        <!-- push鐢宠鐨刟ppid -->
+        <meta-data android:name="ALIPUSH_APPID" android:value="01FFED2301720-default"/>
+
+        <!-- 鏃ュ織涓婁紶缃戝叧 -->
+        <meta-data android:name="logging.gateway" android:value="https://cn-hangzhou-mas-log.cloud.alipay.com"/>
+        <!-- 鏃ュ織鐨勫姞瀵嗗叕閽� -->
+        <meta-data android:name="setting.logging.encryption.pubkey" android:value="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCpffOiYcozIfgIiaOPWsmfktv7Sl/9Af3mIgYz7vkTXoGq4iMN+t5BLV6KjddVEI/9oLtAYV8qx7FhFrUoi3smcYfX35ETPUiHi1gLizeXKVSRYhIm2kiDF5lGfDgcS7uJZvmKjbdYy/RphnH+WQvQyeEH+4rjYSkdhIRE2W52BwIDAQAB"/>
+
+        <!-- 鐩戞帶锛堢數閲忋�佹祦閲忋�侀棯閫�銆佹�ц兘銆佷笟鍔°�佸煁鐐圭瓑绛夛級鍒嗛厤鐨刬d -->
+        <meta-data android:name="workspaceId" android:value="\0default"/>
+
+        <!-- 绛惧悕鏍￠獙bundle鐨勫叕閽� -->
+        <meta-data android:name="client_signature" android:value=""/>
+
+        <!-- mpaas鍒濆鐨剆ervice -->
+        <meta-data android:name="agent.commonservice.load" android:value=""/>
+
+        <!--
+        璁剧疆entryapp
+        <meta-data
+            android:name="agent.entry.pkgname"
+            android:value="" />
+        -->
+
+
+        <!-- 璁剧疆appid锛屾湇鍔＄浼氭妸杩欎釜鍊煎綋鎴愭湇鍔＄appkey锛屽仛楠岀銆傚鏋滀笉閰嶇疆锛屽垯鍙朼ppkey浣滀负appid -->
+        <meta-data android:name="mobilegw.appid" android:value="01FFED2301720"/>
+        <!-- 鎺ㄨ崘閰嶇疆锛氬鏋滈厤缃负V2锛屽皢浼氭敮鎸乸rotobuff绛夐珮绾х壒鎬с�傜洰鍓嶄负浜嗗吋瀹逛竴浜涜�佺綉鍏筹紝榛樿涓篤1銆� -->
+        <meta-data android:name="mobilegw.rpcVersion" android:value="V2"/>
+
+        <activity android:configChanges="orientation|keyboardHidden|navigation" android:name="com.alipay.mobile.quinox.LauncherActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInToolsProcess" android:process=":tools"/>
+
+        <!-- push鐩稿叧 -->
+        <service android:enabled="true" android:exported="false" android:label="NotificationService" android:name="com.alipay.pushsdk.push.NotificationService" android:process=":push">
+            <intent-filter>
+                <action android:name="com.yqhd.wanandroid.push.action.START_PUSHSERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.alipay.pushsdk.push.AppInfoRecvIntentService" android:process=":push">
+        </service>
+        <activity android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:name="com.alipay.mobile.quinox.activity.StubActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.quinox.classloader.DexOptServiceInToolsProcess" android:process=":tools">
+        </service>
+
+        <receiver android:enabled="true" android:exported="false" android:name="android.support.multidex.MultiDexPreloadReceiver" android:process=":push">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.alipay.android.phone.devtool.tools.hotswap.HotSwapService">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="com.alipay.android.phone.devtool.tools.HOTSWAP"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity" android:screenOrientation="portrait" android:theme="@style/tablauncher_theme" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity" android:screenOrientation="portrait" android:theme="@style/h5_transparent" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:name="com.alipay.mobile.nebulacore.ui.H5FileChooserActivity" android:screenOrientation="portrait" android:theme="@style/h5_transparent" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5NetworkCheckActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:name="com.alipay.mobile.nebulacore.dev.ui.H5DevSettingsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|mcc|mnc|locale|touchscreen|keyboard|fontScale" android:name="com.alipay.mobile.nebulacore.wallet.H5DevAppActivity" android:screenOrientation="portrait" android:theme="@style/TransparentNoAnimationTheme" android:windowSoftInputMode="stateHidden|adjustResize"/> <!-- 浠ヤ笅閮芥槸閫傞厤澶氳繘绋嬪惎鍔ㄥ０鏄庣殑activity -->
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity1" android:process=":lite1" android:screenOrientation="portrait" android:taskAffinity=":lite1" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity2" android:process=":lite2" android:screenOrientation="portrait" android:taskAffinity=":lite2" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity3" android:process=":lite3" android:screenOrientation="portrait" android:taskAffinity=":lite3" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity4" android:process=":lite4" android:screenOrientation="portrait" android:taskAffinity=":lite4" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5Activity$H5Activity5" android:process=":lite5" android:screenOrientation="portrait" android:taskAffinity=":lite5" android:theme="@style/tablauncher_theme" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity1" android:process=":lite1" android:screenOrientation="portrait" android:taskAffinity=":lite1" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity2" android:process=":lite2" android:screenOrientation="portrait" android:taskAffinity=":lite2" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity3" android:process=":lite3" android:screenOrientation="portrait" android:taskAffinity=":lite3" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity4" android:process=":lite4" android:screenOrientation="portrait" android:taskAffinity=":lite4" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:exported="false" android:hardwareAccelerated="true" android:name="com.alipay.mobile.nebulacore.ui.H5TransActivity$H5TransActivity5" android:process=":lite5" android:screenOrientation="portrait" android:taskAffinity=":lite5" android:theme="@style/h5_transparent" android:windowDisablePreview="true" android:windowIsTranslucent="false" android:windowSoftInputMode="adjustPan"/>
+
+        <!-- 鍗囩骇涓嬭浇鏈嶅姟 -->
+        <service android:name="com.alipay.mobile.android.security.upgrade.download.normal.UpgradeExternalDownloadIntentService"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <activity android:configChanges="orientation|keyboardHidden|navigation" android:exported="false" android:launchMode="singleTask" android:name="com.alipay.mobile.scan.as.tool.ToolsCaptureActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden">
+        </activity>
+
+        <!-- 涓氬姟鍐呴暱杩炴帴鏈嶅姟 -->
+        <service android:exported="false" android:name="com.alipay.mobile.rome.syncsdk.service.LongLinkService"/>
+        <activity android:name="com.yqhd.wanandroid.launcher.ui.activity.MainActivity">
+        </activity>
+
+        <service android:exported="false" android:name="com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseRequestService" android:process=":tools">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+                <action android:name="com.alipay.android.phone.mobilecommon.dynamicrelease.PROCESS_RESULT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.alipay.android.phone.mobilecommon.dynamicrelease.DynamicReleaseProcessService">
+        </service>
+        <receiver android:exported="false" android:name="com.alipay.android.phone.mobilecommon.dynamicrelease.SyncConfigReceiver" android:process=":tools">
+            <intent-filter>
+                <action android:name="com.alipay.android.phone.mobilecommon.dynamicrelease.ACTION_SYNC_CONFIG"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite1" android:process=":lite1"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite2" android:process=":lite2"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite3" android:process=":lite3"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite4" android:process=":lite4"/>
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.mobile.common.logging.process.LogServiceInlite5" android:process=":lite5"/>
+
+        <service android:enabled="true" android:exported="false" android:name="com.alipay.android.phone.mobilesdk.apm.service.APMInnerService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.alipay.mobile.logmonitor.TraceStubReceiver">
+            <intent-filter>
+                <action android:name="monitor.action.dump.traceview"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="monitor.action.dump.stacktracer"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="monitor.action.MONITOR_POWER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="false" android:name="com.alipay.mobile.logmonitor.ClientMonitorExtReceiver">
+            <intent-filter>
+                <action android:name="monitor.ext.action.SYNC_MDAP_LOG"/>
+            </intent-filter>
+        </receiver>
+    </application>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+
+</manifest>
