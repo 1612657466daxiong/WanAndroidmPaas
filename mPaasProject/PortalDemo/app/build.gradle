@@ -7,11 +7,14 @@ android {
 
     defaultConfig {
         applicationId "com.yqhd.wanandroid"
-        minSdkVersion 15
+        minSdkVersion 18
         targetSdkVersion 26
         versionCode 1
         versionName "1.0.0.0"
+
     }
+
+
     signingConfigs {
         release {
 //            keyAlias 'alias'
@@ -46,8 +49,8 @@ dependencies {
 
 
 // rpc v4图片验签�?要的
-bundle "com.alipay.android.phone.thirdparty:securityguard-build:5.1.38.180402194514@jar"
-manifest "com.alipay.android.phone.thirdparty:securityguard-build:5.1.38.180402194514:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:securityguard-build:5.1.38.180402194514@jar"
+    manifest "com.alipay.android.phone.thirdparty:securityguard-build:5.1.38.180402194514:AndroidManifest@xml"
 
 // rpc v5图片验签�?要的
 //bundle "com.alipay.android.phone.thirdparty:securityguard-build:5.4.2008.171127213741@jar"
@@ -58,8 +61,8 @@ manifest "com.alipay.android.phone.thirdparty:securityguard-build:5.1.38.1804021
 // 框架
 bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540@jar"
 manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127@jar"
-manifest "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127@jar"
+    manifest "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127:AndroidManifest@xml"
 //    bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218@jar"//添加mPaas 的 appcompat库需要
 //    manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218:AndroidManifest@xml"
 //appcompat库依赖
@@ -67,188 +70,189 @@ manifest "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127:
 //    manifest "com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:AndroidManifest@xml"
 
 // hotpatch
-bundle "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358@jar"
-manifest "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837@jar"
-manifest "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358@jar"
+    manifest "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837@jar"
+    manifest "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:AndroidManifest@xml"
 
 // 定位
-bundle "com.alipay.android.phone.mobilecommon:lbs-build:1.9.0.170621020655@jar"
-manifest "com.alipay.android.phone.mobilecommon:lbs-build:1.9.0.170621020655:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilecommon:lbs-build:1.9.0.170621020655@jar"
+    manifest "com.alipay.android.phone.mobilecommon:lbs-build:1.9.0.170621020655:AndroidManifest@xml"
 
 // 多媒�?
-bundle "com.alipay.android.phone.mobilecommon:multimedia-build:1.19.0.170605144942@jar"
-manifest "com.alipay.android.phone.mobilecommon:multimedia-build:1.19.0.170605144942:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilecommon:multimedia-build:1.19.0.170605144942@jar"
+    manifest "com.alipay.android.phone.mobilecommon:multimedia-build:1.19.0.170605144942:AndroidManifest@xml"
 
 // 10.0.1基线中的分享 10.0.18基线中的分享依赖了小程序
 //    bundle "com.alipay.android.phone.mobilecommon:share-build:1.3.1.17092501@jar"
 
-bundle "com.alipay.android.phone.mobilesdk:common-build:1.8.2.170509174053@jar"
-manifest "com.alipay.android.phone.mobilesdk:common-build:1.8.2.170509174053:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:common-build:1.8.2.170509174053@jar"
+    manifest "com.alipay.android.phone.mobilesdk:common-build:1.8.2.170509174053:AndroidManifest@xml"
 
-bundle "com.alipay.mobileapi:mobileapp-build:1.0.0.20170307@jar"
-bundle "com.alipay.mobileapi:mobileappcommon-build:1.0.0.20170519@jar"
+    bundle "com.alipay.mobileapi:mobileapp-build:1.0.0.20170307@jar"
+    bundle "com.alipay.mobileapi:mobileappcommon-build:1.0.0.20170519@jar"
 
 // 10.0.18 基线中的commonbizservice
-bundle "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.161225230004@jar"
-manifest "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.171020173544:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.161225230004@jar"
+    manifest "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.171020173544:AndroidManifest@xml"
 
-bundle "com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028@jar"
-manifest "com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028@jar"
+    manifest "com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028:AndroidManifest@xml"
 
 // 日志
-bundle "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742@jar"
-manifest "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.171023152737:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603@jar"
-manifest "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742@jar"
+    manifest "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.171023152737:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603@jar"
+    manifest "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:AndroidManifest@xml"
 
 // 存储
-bundle "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631@jar"
-manifest "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631@jar"
+    manifest "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631:AndroidManifest@xml"
 
 // 10.0.18基线版本 rpc
 // 调整rpc cancel处理机制
-bundle "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614@jar"
-manifest "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614@jar"
+    manifest "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:AndroidManifest@xml"
 // 10.0.18基线版本
 // amdc调度优化与支持rpc加解�?
-bundle "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813@jar"
-manifest "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:crypto-build:1.0.0.171011180711@jar"
-manifest "com.alipay.android.phone.mobilesdk:crypto-build:1.0.0.171011180711:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:transportext-build:1.7.3.170612110614@jar"
-manifest "com.alipay.android.phone.mobilesdk:transportext-build:1.7.3.170612110614:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813@jar"
+    manifest "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:crypto-build:1.0.0.171011180711@jar"
+    manifest "com.alipay.android.phone.mobilesdk:crypto-build:1.0.0.171011180711:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:transportext-build:1.7.3.170612110614@jar"
+    manifest "com.alipay.android.phone.mobilesdk:transportext-build:1.7.3.170612110614:AndroidManifest@xml"
 // 扫一扫依�?
 // 10.0.18中的bqscanservice 新增加了对commonbizservice的依�?
-bundle "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170612143649@jar"
-manifest "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170612143649:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170612143649@jar"
+    manifest "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170612143649:AndroidManifest@xml"
 // 10.0.1中的bqscanservice
 //    bundle "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170220220045@jar"
 //    manifest "com.alipay.android.phone.scancode:bqcscanservice-build:2.0.0.170220220045:AndroidManifest@xml"
-bundle "com.alipay.android.phone.scancode:mascanengine-build:2.0.0.170616184613@jar"
-manifest "com.alipay.android.phone.scancode:mascanengine-build:2.0.0.170616184613:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.scancode:mascanengine-build:2.0.0.170616184613@jar"
+    manifest "com.alipay.android.phone.scancode:mascanengine-build:2.0.0.170616184613:AndroidManifest@xml"
 
-bundle "com.alipay.android.phone.thirdparty:androidsupport-build:13.23.2.161114144707@jar"
-manifest "com.alipay.android.phone.thirdparty:androidsupport-build:13.23.2.161114144707:AndroidManifest@xml"
-bundle "com.alipay.android.phone.thirdparty:androidsupportpalette-build:7.22@jar"
-manifest "com.alipay.android.phone.thirdparty:androidsupportpalette-build:7.22:AndroidManifest@xml"
-bundle "com.alipay.android.phone.thirdparty:androidsupportrecyclerview-build:7.23@jar"
-bundle "com.alipay.android.phone.thirdparty:fastjson-build:1.1.65.171103193330@jar"
-manifest "com.alipay.android.phone.thirdparty:fastjson-build:1.1.65.171103193330:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:androidsupport-build:13.23.2.161114144707@jar"
+    manifest "com.alipay.android.phone.thirdparty:androidsupport-build:13.23.2.161114144707:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:androidsupportpalette-build:7.22@jar"
+    manifest "com.alipay.android.phone.thirdparty:androidsupportpalette-build:7.22:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:androidsupportrecyclerview-build:7.23@jar"
+    bundle "com.alipay.android.phone.thirdparty:fastjson-build:1.1.65.171103193330@jar"
+    manifest "com.alipay.android.phone.thirdparty:fastjson-build:1.1.65.171103193330:AndroidManifest@xml"
 // utdid
-bundle "com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530@jar"
+    bundle "com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530@jar"
 // 网络
-bundle "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228@jar"
-manifest "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228@jar"
+    manifest "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:AndroidManifest@xml"
 // 浏览器下载apk跳转默认浏览器，ssl错误支持忽略
-bundle "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927@jar"
-manifest "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:AndroidManifest@xml"
-bundle "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651@jar"
-manifest "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927@jar"
+    manifest "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651@jar"
+    manifest "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:AndroidManifest@xml"
 // 不应该使用nebulaappproxy 使用的目的是为了下载离线包，离线包在nebulaadapter中实现了
 //    bundle "com.alipay.android.phone.wallet:nebulaappproxy-build:1.6.2.170613180651@jar"
 //    manifest "com.alipay.android.phone.wallet:nebulaappproxy-build:1.6.2.170613180651:AndroidManifest@xml"
 // 不应该使用钱包的nebulabiz �?好把groupid 也改�? 使用nebulabiz的目的是为了实现h5调rpc,目前使用的nebulabiz分支�?10.0.15,�?10.0.18分支的rpc部分�?�?
-bundle "com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756@jar"
+    bundle "com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756@jar"
 
-bundle "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957@jar"
+    bundle "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957@jar"
 
 // 浏览器下载apk跳转默认浏览器，ssl错误支持忽略
-bundle "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849@jar"
-manifest "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849@jar"
+    manifest "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:AndroidManifest@xml"
 // 定位
-bundle "com.alipay.mobileapi:mobilelbs-build:1.0.0.2017062201@jar"
-bundle "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837@jar"
-manifest "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837:AndroidManifest@xml"
+    bundle "com.alipay.mobileapi:mobilelbs-build:1.0.0.2017062201@jar"
+    bundle "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837@jar"
+    manifest "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837:AndroidManifest@xml"
 
 // unHittedDependency
 // 基于10.0.18分支的nebula-build:api写的mpaasnebulaadapter 1.0.0.171103155725
-bundle "com.mpaas.nebula.adapter:mpaasnebulaadapter-build:1.0.0.171128150408@jar"
-manifest "com.mpaas.nebula.adapter:mpaasnebulaadapter-build:1.0.0.171128150408:AndroidManifest@xml"
+    bundle "com.mpaas.nebula.adapter:mpaasnebulaadapter-build:1.0.0.171128150408@jar"
+    manifest "com.mpaas.nebula.adapter:mpaasnebulaadapter-build:1.0.0.171128150408:AndroidManifest@xml"
 // 封装比较复杂的调�?
-bundle "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232@jar"
-manifest "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:AndroidManifest@xml"
+    bundle "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232@jar"
+    manifest "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:AndroidManifest@xml"
 // push
-manifest "com.alipay.android.phone.rome:pushsdk-build:1.3.0:AndroidManifest@xml"
-bundle "com.alipay.android.phone.rome:pushsdk-build:1.3.0@jar"
+    manifest "com.alipay.android.phone.rome:pushsdk-build:1.3.0:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.rome:pushsdk-build:1.3.0@jar"
 //bundle "com.alipay.android.phone.rome:pushservice-build:1.3.0@jar"
 //manifest "com.alipay.android.phone.rome:pushservice-build:1.3.0:AndroidManifest@xml"
 
 // 升级
-bundle "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001@jar"
-manifest "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001@jar"
+    manifest "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001:AndroidManifest@xml"
 
 // sync
-bundle "com.alipay.android.phone.sync:syncservice-build:2.0.0.170418193042:nolog@jar"
-manifest "com.alipay.android.phone.sync:syncservice-build:2.0.0.170418193042:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.sync:syncservice-build:2.0.0.170418193042:nolog@jar"
+    manifest "com.alipay.android.phone.sync:syncservice-build:2.0.0.170418193042:AndroidManifest@xml"
 
 // 定制，去掉了启动报活
-bundle "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340@jar"
-manifest "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340@jar"
+    manifest "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:AndroidManifest@xml"
 // 待合�? xpath用全类名�?要合并master
-bundle "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023@jar"
-manifest "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023@jar"
+    manifest "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:AndroidManifest@xml"
 // monitor依赖�?
-bundle "com.alipay.android.phone.mobilesdk:forerunner-build:1.0.0.170616150043@jar"
-manifest "com.alipay.android.phone.mobilesdk:forerunner-build:1.0.0.170616150043:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:forerunner-build:1.0.0.170616150043@jar"
+    manifest "com.alipay.android.phone.mobilesdk:forerunner-build:1.0.0.170616150043:AndroidManifest@xml"
 
-devbundle "com.alipay.android.phone.devtool:hotswap:2.1.0.170117143949@jar"
-devmanifest "com.alipay.android.phone.devtool:hotswap:2.1.0.170117143949:AndroidManifest@xml"
+    devbundle "com.alipay.android.phone.devtool:hotswap:2.1.0.170117143949@jar"
+    devmanifest "com.alipay.android.phone.devtool:hotswap:2.1.0.170117143949:AndroidManifest@xml"
 
 // 扫一扫demo
-devbundle "com.alipay.android.mpaas:scan-build:2.0.0.170911175737@jar"
-devmanifest "com.alipay.android.mpaas:scan-build:2.0.0.170911175737:AndroidManifest@xml"
+    devbundle "com.alipay.android.mpaas:scan-build:2.0.0.170911175737@jar"
+    devmanifest "com.alipay.android.mpaas:scan-build:2.0.0.170911175737:AndroidManifest@xml"
 
 
-bundle "com.alipay.android.phone.thirdparty:androidannotations-build:9.6.6.160512173203@jar"
-manifest "com.alipay.android.phone.thirdparty:androidannotations-build:9.6.6.160512173203:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:androidannotations-build:9.6.6.160512173203@jar"
+    manifest "com.alipay.android.phone.thirdparty:androidannotations-build:9.6.6.160512173203:AndroidManifest@xml"
 
 // 如果没有以下两行代码；从H5跳转到滴滴sdk的打车页面无显示；加上后从H5跳转到滴滴sdk的打车页面正常显示； 原因未知 �?查确认人：李鹏军 2017-10-11 17:39
-bundle "com.alipay.android.phone.wallet:nebulauc-build:1.6.0.170621012849@jar"
-manifest "com.alipay.android.phone.wallet:nebulauc-build:1.6.0.170621012849:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebulauc-build:1.6.0.170621012849@jar"
+    manifest "com.alipay.android.phone.wallet:nebulauc-build:1.6.0.170621012849:AndroidManifest@xml"
 
 
-bundle "com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530@jar"
-manifest "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:AndroidManifest@xml"
-manifest "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:AndroidManifest@xml"
-bundle "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001@jar"
-bundle "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742@jar"
-manifest "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837:AndroidManifest@xml"
-bundle "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849@jar"
-manifest "com.alipay.android.phone.rome:pushsdk-build:1.3.0:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813@jar"
-bundle "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837@jar"
-manifest "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001:AndroidManifest@xml"
-bundle "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927@jar"
-manifest "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:AndroidManifest@xml"
-manifest "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023@jar"
-bundle "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651@jar"
-manifest "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilecommon:share-build:1.3.0.161225230058@jar"
-manifest "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:AndroidManifest@xml"
-manifest "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614@jar"
-manifest "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837@jar"
-bundle "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358@jar"
-bundle "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.161225230004@jar"
-manifest "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:AndroidManifest@xml"
-bundle "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232@jar"
-bundle "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340@jar"
-bundle "com.alipay.android.phone.rome:pushsdk-build:1.3.0@jar"
-bundle "com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756@jar"
-manifest "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:AndroidManifest@xml"
-bundle "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228@jar"
-bundle "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631@jar"
-manifest "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:AndroidManifest@xml"
-manifest "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:AndroidManifest@xml"
-manifest "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957:AndroidManifest@xml"
-bundle "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603@jar"
-manifest "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:AndroidManifest@xml"
-bundle "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957@jar"
-manifest "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:AndroidManifest@xml"
-bundle "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:raw@jar"
+    bundle "com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530@jar"
+    manifest "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:AndroidManifest@xml"
+    manifest "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001@jar"
+    bundle "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742@jar"
+    manifest "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849@jar"
+    manifest "com.alipay.android.phone.rome:pushsdk-build:1.3.0:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813@jar"
+    bundle "com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837@jar"
+    manifest "com.alipay.android.phone.securitycommon:aliupgrade-build:1.0.0.17063001:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927@jar"
+    manifest "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:AndroidManifest@xml"
+    manifest "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023@jar"
+    bundle "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651@jar"
+    manifest "com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilecommon:share-build:1.3.0.161225230058@jar"
+    manifest "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:AndroidManifest@xml"
+    manifest "com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614@jar"
+    manifest "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:aspect-build:1.4.1.161220194837@jar"
+    bundle "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358@jar"
+    bundle "com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.161225230004@jar"
+    manifest "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:AndroidManifest@xml"
+    bundle "com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232@jar"
+    bundle "com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340@jar"
+    bundle "com.alipay.android.phone.rome:pushsdk-build:1.3.0@jar"
+    bundle "com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756@jar"
+    manifest "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228@jar"
+    bundle "com.alipay.android.phone.mobilesdk:storage-build:1.7.0.170609123631@jar"
+    manifest "com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:AndroidManifest@xml"
+    manifest "com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957@jar"
+    manifest "com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603@jar"
+    manifest "com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:AndroidManifest@xml"
 
+    bundle "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:raw@jar"
+//    bundle "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT@jar"
+    manifest "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:AndroidManifest@xml"
 
 }

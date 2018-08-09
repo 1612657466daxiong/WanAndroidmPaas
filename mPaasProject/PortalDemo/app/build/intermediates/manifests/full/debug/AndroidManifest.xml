@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0.0.0" package="com.yqhd.wanandroid">
 
-    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="26"/>
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="26"/>
 
     <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
 
@@ -71,10 +71,10 @@
     <application android:allowBackup="false" android:debuggable="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.alipay.mobile.quinox.LauncherApplication" android:theme="@style/AppThemeNew">
 
         <!-- 鐩戝惉application鍚姩杩囩▼ -->
-        <meta-data android:name="agent.application" android:value="com.yqhd.wanandroid.launcher.MockLauncherApplicationAgent"/>
+        <meta-data android:name="agent.application" android:value="com.yqhd.wanandroid.launcher.app.MockLauncherApplicationAgent"/>
 
         <!-- 涓氬姟璁剧疆娆㈣繋鐣岄潰锛岀瓑寰呮鏋跺垵濮嬪寲瀹屾垚 -->
-        <meta-data android:name="agent.activity" android:value="com.yqhd.wanandroid.launcher.MockLauncherActivityAgent"/>
+        <meta-data android:name="agent.activity" android:value="com.yqhd.wanandroid.launcher.app.MockLauncherActivityAgent"/>
         <!-- 鍒濆鍔犺浇鏃剁殑椤甸潰 -->
         <meta-data android:name="agent.activity.layout" android:value="init"/>
 

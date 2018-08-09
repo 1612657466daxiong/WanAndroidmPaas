@@ -8,5 +8,28 @@
         android:layout_height="50dp">
     <include layout="@layout/toolbarlayout" ></include>
     </LinearLayout>
-    
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_marginTop="100dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="username"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
 </LinearLayout>

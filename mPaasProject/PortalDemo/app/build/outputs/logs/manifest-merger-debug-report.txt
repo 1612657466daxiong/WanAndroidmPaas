@@ -306,15 +306,15 @@ ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xm
 	android:name
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:89:5-64
 meta-data#agent.application
-ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:97:9-99:89
+ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:97:9-99:93
 	android:value
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:99:13-86
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:99:13-90
 	android:name
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:98:13-45
 meta-data#agent.activity
-ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:102:9-104:86
+ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:102:9-104:90
 	android:value
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:104:13-83
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:104:13-87
 	android:name
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:103:13-42
 meta-data#agent.activity.layout

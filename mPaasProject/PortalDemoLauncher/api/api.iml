@@ -106,44 +106,32 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="com.android.support:support-media-compat-26.0.0" level="project" />
-    <orderEntry type="library" name="com.scwang.smartrefresh:SmartRefreshLayout-1.0.4" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:tianyan@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028:api@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-fragment-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:api@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-vector-drawable-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:logging@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.170613203916:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:rpc@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:appcompat-v7-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:framework-api:2.1.1@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-utils-26.0.0" level="project" />
-    <orderEntry type="library" name="com.android.support:support-core-ui-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:util@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:auto-tracker@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:api@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-compat-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756:mpaasnebulabiz@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:tianyan@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:api@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-v4-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.securitycommon:aliupgrade-rpc:1.0.1@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.rome:pushsdk-longlink:1.3.0@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:animated-vector-drawable-26.0.0" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:biz@jar" level="project" />
     <orderEntry type="library" name="com.mpaas.mpaasadapter:mpaasadapter-build:1.0.0.170123150232:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilesdk:rpc-build:1.7.3.170612110614:api@jar" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.wallet:nebulaconfig-build:1.6.0.170614181957:api@jar" level="project" />
-    <orderEntry type="library" name="com.android.support:support-annotations:26.0.0@jar" level="project" />
-    <orderEntry type="library" name="com.scwang.smartrefresh:SmartRefreshHeader-1.0.4" level="project" />
     <orderEntry type="library" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:nebula@jar" level="project" />
   </component>
 </module>

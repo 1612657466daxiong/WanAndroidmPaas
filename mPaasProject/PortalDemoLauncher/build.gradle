@@ -28,7 +28,7 @@ allprojects {
             //dirs project(":api").file("libs")
         }
         mavenLocal()
-        maven {url 'http://maven.aliyun.com/nexus/content/repositories/google'}
+       maven {url 'http://maven.aliyun.com/nexus/content/repositories/google'}
         maven {
             credentials {
                 username "mvn_read_ws"

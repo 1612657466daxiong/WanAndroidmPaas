@@ -11,7 +11,7 @@ public class MockLauncherApplicationAgent extends LauncherApplicationAgent {
 
     public MockLauncherApplicationAgent(Application context, Object bundleContext) {
         super(context, bundleContext);
-        WanAndroidApp.setInstance(context);
+
     }
 
     @Override

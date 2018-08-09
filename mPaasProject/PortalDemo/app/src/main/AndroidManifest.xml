@@ -96,12 +96,12 @@
         <!--监听application启动过程-->
         <meta-data
             android:name="agent.application"
-            android:value="com.yqhd.wanandroid.launcher.MockLauncherApplicationAgent" />
+            android:value="com.yqhd.wanandroid.launcher.app.MockLauncherApplicationAgent" />
 
         <!--业务设置欢迎界面，等待框架初始化完成-->
         <meta-data
             android:name="agent.activity"
-            android:value="com.yqhd.wanandroid.launcher.MockLauncherActivityAgent" />
+            android:value="com.yqhd.wanandroid.launcher.app.MockLauncherActivityAgent" />
         <!--初始加载时的页面-->
         <meta-data
             android:name="agent.activity.layout"

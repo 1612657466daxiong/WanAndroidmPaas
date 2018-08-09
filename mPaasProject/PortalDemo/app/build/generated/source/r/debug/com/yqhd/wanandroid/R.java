@@ -17,11 +17,9 @@ public final class R {
         public static final int download_cancel_btn_selector=0x7f020000;
         public static final int download_cancel_normal=0x7f020001;
         public static final int download_cancel_press=0x7f020002;
-        public static final int download_icon=0x7f020003;
-        public static final int download_progress_horizontal=0x7f020004;
-        public static final int ic_action_menu=0x7f020005;
-        public static final int splashbg=0x7f020006;
-        public static final int yw_1222=0x7f020007;
+        public static final int download_progress_horizontal=0x7f020003;
+        public static final int ic_action_menu=0x7f020004;
+        public static final int splashbg=0x7f020005;
     }
     public static final class id {
         public static final int about_process_icon=0x7f060000;
