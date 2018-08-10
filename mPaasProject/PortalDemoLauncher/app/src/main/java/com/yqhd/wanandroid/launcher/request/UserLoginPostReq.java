@@ -3,8 +3,6 @@
 
 package com.yqhd.wanandroid.launcher.request;
 
-import com.yqhd.wanandroid.launcher.model.loginBean;
-
 public class UserLoginPostReq {
     public String username = "doraemon";
     public String password = "123456789";

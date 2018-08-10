@@ -1,12 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:1-216:12
 	package
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:2:5-34
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
@@ -15,18 +9,14 @@ INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:11-69
 	android:versionCode
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:3:5-28
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
 ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:6:5-8:41
-INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:6:5-8:41
 	android:targetSdkVersion
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:8:9-38
 		INJECTED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml
@@ -297,10 +287,10 @@ ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xm
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:93:5-37
 	android:hardwareAccelerated
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:91:5-39
-	android:icon
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:92:5-39
 	android:allowBackup
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:90:5-32
+	android:icon
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:92:5-39
 	android:theme
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:94:5-39
 	android:name
@@ -431,20 +421,20 @@ ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xm
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:188:27-74
 service#com.alipay.mobile.common.logging.process.LogServiceInToolsProcess
 ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:192:9-196:48
-	android:process
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:196:13-37
 	android:enabled
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:194:13-35
+	android:process
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:196:13-37
 	android:exported
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:195:13-37
 	android:name
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:193:13-93
 service#com.alipay.pushsdk.push.NotificationService
 ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:199:9-208:19
-	android:process
-		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:203:13-36
 	android:enabled
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:201:13-35
+	android:process
+		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:203:13-36
 	android:label
 		ADDED from E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\AndroidManifest.xml:204:13-48
 	android:exported

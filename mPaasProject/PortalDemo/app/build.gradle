@@ -3,7 +3,7 @@ apply plugin: 'com.alipay.portal'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    buildToolsVersion "19.1.0"
 
     defaultConfig {
         applicationId "com.yqhd.wanandroid"
@@ -59,15 +59,15 @@ dependencies {
 // compile(name: 'SecurityGuardSDK-external-release-5.1.38', ext: 'aar')
 
 // 框架
-bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540@jar"
-manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540:AndroidManifest@xml"
+//bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540@jar"
+//manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171214183540:AndroidManifest@xml"
     bundle "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127@jar"
     manifest "com.alipay.android.phone.mobilesdk:framework-build:2.5.0.170621123127:AndroidManifest@xml"
-//    bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218@jar"//添加mPaas 的 appcompat库需要
-//    manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218:AndroidManifest@xml"
+    bundle "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218@jar"//添加mPaas 的 appcompat库需要
+    manifest "com.alipay.android.phone.mobilesdk:quinox-build:2.3.6.171123113218:AndroidManifest@xml"
 //appcompat库依赖
-//    bundle "com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326@jar"
-//    manifest "com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:AndroidManifest@xml"
+    bundle "com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326@jar"
+    manifest "com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:AndroidManifest@xml"
 
 // hotpatch
     bundle "com.alipay.android.phone.mobilecommon:cloudfix-build:2.4.2.170527181358@jar"

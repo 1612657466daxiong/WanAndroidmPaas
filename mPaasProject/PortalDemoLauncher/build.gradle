@@ -1,7 +1,10 @@
 apply plugin: 'maven'
 buildscript {
     repositories {
+//        google()
+        jcenter()
         mavenLocal()
+
         maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
         maven {url 'http://maven.aliyun.com/nexus/content/repositories/google'}
         maven {
@@ -13,9 +16,9 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
-//        classpath 'com.alipay.android:android-gradle-plugin:2.1.3.3.6.4.9'
-        classpath 'com.alipay.android:android-gradle-plugin:3.0.0.5.7'
+        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.alipay.android:android-gradle-plugin:2.1.3.3.6.4.9'
+//        classpath 'com.alipay.android:android-gradle-plugin:3.0.0.5.7'
         classpath 'com.android.boost.easyconfig:easyconfig:1.1.11-snap'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
     }
@@ -27,6 +30,9 @@ allprojects {
             // lib module compile aar
             //dirs project(":api").file("libs")
         }
+//        google()
+        jcenter()
+//        google()
         mavenLocal()
        maven {url 'http://maven.aliyun.com/nexus/content/repositories/google'}
         maven {

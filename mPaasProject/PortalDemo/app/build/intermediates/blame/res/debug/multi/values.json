@@ -1,0 +1,367 @@
+[
+    {
+        "outputFile": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 45,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 101,
+                    "endColumn": 58,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 58,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 60,
+                    "endOffset": 216
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 301,
+                        "endColumn": 60,
+                        "endOffset": 357
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 221,
+                    "endColumn": 66,
+                    "endOffset": 283
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 233,
+                        "endColumn": 66,
+                        "endOffset": 295
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 288,
+                    "endColumn": 53,
+                    "endOffset": 337
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 363,
+                        "endColumn": 53,
+                        "endOffset": 412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 342,
+                    "endColumn": 45,
+                    "endOffset": 383
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 418,
+                        "endColumn": 45,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 388,
+                    "endColumn": 55,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 117,
+                        "endColumn": 55,
+                        "endOffset": 168
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 444,
+                    "endColumn": 57,
+                    "endOffset": 497
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 174,
+                        "endColumn": 57,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 502,
+                    "endColumn": 49,
+                    "endOffset": 547
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 17,
+                        "endColumn": 49,
+                        "endOffset": 62
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 552,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 744
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 19,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 749,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1194
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1018,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1199,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1473
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 1925,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1478,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 1758
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 2565,
+                        "endLine": 63,
+                        "endColumn": 12,
+                        "endOffset": 2849
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 1763,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 2194
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1479,
+                        "endLine": 43,
+                        "endColumn": 12,
+                        "endOffset": 1917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2199,
+                    "endLine": 46,
+                    "endColumn": 12,
+                    "endOffset": 2399
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 806,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1010
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 2404,
+                    "endLine": 51,
+                    "endColumn": 12,
+                    "endOffset": 2599
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 798
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2604,
+                    "endLine": 57,
+                    "endColumn": 12,
+                    "endOffset": 2968
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 222,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 2973,
+                    "endLine": 63,
+                    "endColumn": 12,
+                    "endOffset": 3312
+                },
+                "from": {
+                    "file": "E:\\WanAndroid\\mPaasProject\\PortalDemo\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 2213,
+                        "endLine": 57,
+                        "endColumn": 12,
+                        "endOffset": 2557
+                    }
+                }
+            }
+        ]
+    }
+]
