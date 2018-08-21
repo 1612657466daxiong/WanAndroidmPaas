@@ -5,6 +5,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion "19.1.0"
 
+
     defaultConfig {
         applicationId "com.yqhd.wanandroid"
         minSdkVersion 18
@@ -254,5 +255,13 @@ dependencies {
     bundle "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:raw@jar"
 //    bundle "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT@jar"
     manifest "com.yqhd.wanandroid.launcher:portaldemo-build:1.0-SNAPSHOT:AndroidManifest@xml"
+
+    provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326@jar'
+    provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:appcompat@jar'
+    provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:design@jar'
+    provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:recyclerview@jar'
+
+//    compile "com.airbnb.android:lottie:2.6.0-beta19"
+
 
 }

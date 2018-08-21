@@ -1,35 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout"
+    xmlns:app="http://schemas.android.com/apk/res/com.mpaas.android.res.base"
     android:orientation="vertical">
-    <LinearLayout
+    <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp">
-    <include layout="@layout/toolbarlayout" ></include>
-    </LinearLayout>
-    <EditText
-        android:id="@+id/ed_username"
-        android:layout_marginTop="100dp"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:hint="username"
-        android:layout_gravity="center_horizontal"/>
-    <EditText
-        android:id="@+id/ed_password"
-        android:layout_marginTop="10dp"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:hint="password"
-        android:inputType="textPassword"
-        android:layout_gravity="center_horizontal"/>
-    <Button
+        android:layout_height="match_parent"
+        android:theme="@style/MyAppthemeTest">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            android:elevation="@dimen/dp_0"
+            android:theme="@style/AppTheme.AppBarOverlay">
+            <include layout="@layout/common_toolbar"></include>
+        </android.support.design.widget.AppBarLayout>
+        <FrameLayout
+            android:id="@+id/fragment_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_marginBottom="@dimen/dp_60"
+            android:layout_marginEnd="@dimen/dp_16"
+            style="@style/style_float_btn"
+            android:src="@mipmap/icon_up_arrow"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        android:id="@+id/btn_login"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="login"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        />
-</LinearLayout>
+        </RadioGroup>
+
+    </android.support.design.widget.CoordinatorLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/drawer_item_bg_n"
+        app:headerLayout="@layout/nav_header_main"
+        android:theme="@style/MyAppthemeTest"
+        app:menu="@menu/nav_menu"
+        android:fitsSystemWindows="true"
+        app:itemBackground="@drawable/drawer_item_bg"
+        >
+
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

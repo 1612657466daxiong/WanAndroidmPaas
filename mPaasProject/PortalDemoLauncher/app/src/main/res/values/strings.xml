@@ -1,1 +1,21 @@
-<resources></resources>
+<resources>
+    <string name="login">login</string>
+    <string name="login_in">Login</string>
+    <string name="app_name">WanAndroid</string>
+    <string name="my_collect">Collect</string>
+    <string name="about_us">About Us</string>
+    <string name="setting">Setting</string>
+    <string name="logout">Logout</string>
+
+    <string name="knowledge_hierarchy">Knowledge hierarchy</string>
+    <string name="home_pager">Home pager</string>
+    <string name="navigation">Navigation</string>
+    <string name="project">Project</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+</resources>

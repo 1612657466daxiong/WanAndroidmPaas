@@ -14,6 +14,6 @@
     <public type="id" name="download_process_title_txt" id="0x7f060003" />
     <public type="id" name="download_process_bar" id="0x7f060004" />
     <public type="id" name="progress_text" id="0x7f060005" />
-    
+
 
 </resources>

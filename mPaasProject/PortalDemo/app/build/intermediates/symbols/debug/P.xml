@@ -6,22 +6,22 @@
   <!-- PUBLIC SECTION.  These resources have been declared public.
        Changes to these definitions will break binary compatibility. -->
 
-  <public type="drawable" name="download_cancel_btn_selector" id="0x7f020001" />
-  <public type="drawable" name="download_cancel_normal" id="0x7f020002" />
-  <public type="drawable" name="download_cancel_press" id="0x7f020003" />
-  <public type="drawable" name="download_progress_horizontal" id="0x7f020005" />
+  <public type="drawable" name="download_cancel_btn_selector" id="0x7f04004f" />
+  <public type="drawable" name="download_cancel_normal" id="0x7f040050" />
+  <public type="drawable" name="download_cancel_press" id="0x7f040051" />
+  <public type="drawable" name="download_progress_horizontal" id="0x7f040053" />
 
-  <public type="layout" name="download_progress" id="0x7f030000" />
+  <public type="layout" name="download_progress" id="0x7f020031" />
 
-  <public type="style" name="notify_title" id="0x7f050005" />
-  <public type="style" name="notify_progress" id="0x7f050006" />
-  <public type="style" name="Download_ProgressBar_Horizontal" id="0x7f050007" />
+  <public type="style" name="notify_title" id="0x7f030160" />
+  <public type="style" name="notify_progress" id="0x7f030161" />
+  <public type="style" name="Download_ProgressBar_Horizontal" id="0x7f030162" />
 
-  <public type="id" name="about_process_icon" id="0x7f060001" />
-  <public type="id" name="update_cancel_btn" id="0x7f060002" />
-  <public type="id" name="download_process_title_txt" id="0x7f060003" />
-  <public type="id" name="download_process_bar" id="0x7f060004" />
-  <public type="id" name="progress_text" id="0x7f060005" />
+  <public type="id" name="about_process_icon" id="0x7f0b0080" />
+  <public type="id" name="update_cancel_btn" id="0x7f0b0081" />
+  <public type="id" name="download_process_title_txt" id="0x7f0b0082" />
+  <public type="id" name="download_process_bar" id="0x7f0b0083" />
+  <public type="id" name="progress_text" id="0x7f0b0084" />
 
   <!-- PRIVATE SECTION.  These resources have not been declared public.
        You can make them public my moving these lines into a file in res/values. -->
@@ -31,42 +31,52 @@
   <!-- Declared at res\drawable-xhdpi-v4\ic_action_menu.png:0 -->
   <!-- Declared at res\drawable-xxhdpi-v4\ic_action_menu.png:0 -->
   <!-- Declared at res\drawable-xxxhdpi-v4\ic_action_menu.png:0 -->
-  <public type="drawable" name="ic_action_menu" id="0x7f020000" />
+  <public type="drawable" name="ic_action_menu" id="0x7f04004e" />
   <!-- Declared at res\drawable-hdpi-v4\splashbg.jpg:0 -->
-  <public type="drawable" name="splashbg" id="0x7f020004" />
+  <public type="drawable" name="splashbg" id="0x7f040052" />
 
   <!-- Declared at res\layout\init.xml:0 -->
-  <public type="layout" name="init" id="0x7f030001" />
+  <public type="layout" name="init" id="0x7f020032" />
 
   <!-- Declared at res\mipmap-mdpi-v4\ic_launcher.png:0 -->
   <!-- Declared at res\mipmap-hdpi-v4\ic_launcher.png:0 -->
   <!-- Declared at res\mipmap-xhdpi-v4\ic_launcher.png:0 -->
   <!-- Declared at res\mipmap-xxhdpi-v4\ic_launcher.png:0 -->
   <!-- Declared at res\mipmap-xxxhdpi-v4\ic_launcher.png:0 -->
-  <public type="mipmap" name="ic_launcher" id="0x7f040000" />
+  <public type="mipmap" name="ic_launcher" id="0x7f0c0000" />
 
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:12 -->
-  <public type="style" name="AppThemeNew" id="0x7f050000" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:25 -->
-  <public type="style" name="Transparent" id="0x7f050001" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:30 -->
-  <public type="style" name="TransparentNoAnimationTheme" id="0x7f050002" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:35 -->
-  <public type="style" name="h5_transparent" id="0x7f050003" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:53 -->
-  <public type="style" name="share_select_dialog" id="0x7f050004" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:59 -->
-  <public type="style" name="tablauncher_theme" id="0x7f050008" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:14 -->
+  <public type="style" name="AppTheme.AppBarOverlay" id="0x7f03015b" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:15 -->
+  <public type="style" name="AppThemeNew" id="0x7f03015c" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:28 -->
+  <public type="style" name="MyAppthemeTest" id="0x7f03015d" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:33 -->
+  <public type="style" name="Transparent" id="0x7f03015e" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:38 -->
+  <public type="style" name="TransparentNoAnimationTheme" id="0x7f03015f" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:43 -->
+  <public type="style" name="h5_transparent" id="0x7f030163" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:61 -->
+  <public type="style" name="share_select_dialog" id="0x7f030164" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:67 -->
+  <public type="style" name="style_float_btn" id="0x7f030165" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:72 -->
+  <public type="style" name="tablauncher_theme" id="0x7f030166" />
 
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:8 -->
-  <public type="id" name="promt" id="0x7f060000" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:9 -->
-  <public type="id" name="relativeLayout1" id="0x7f060006" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:10 -->
+  <public type="id" name="promt" id="0x7f0b007f" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:11 -->
+  <public type="id" name="relativeLayout1" id="0x7f0b0085" />
 
   <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:3 -->
-  <public type="color" name="white_color" id="0x7f070000" />
+  <public type="color" name="primaryColor" id="0x7f0a0054" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:4 -->
+  <public type="color" name="primaryDarkColor" id="0x7f0a0055" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:5 -->
+  <public type="color" name="white_color" id="0x7f0a0056" />
 
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:11 -->
-  <public type="string" name="app_name" id="0x7f080000" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:13 -->
+  <public type="string" name="app_name" id="0x7f060017" />
 
 </resources>

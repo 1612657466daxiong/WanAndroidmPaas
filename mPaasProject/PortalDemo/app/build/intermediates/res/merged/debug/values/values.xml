@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primaryColor">#ffffff</color>
+    <color name="primaryDarkColor">#000000</color>
     <color name="white_color">#ffffff</color>
     <item name="about_process_icon" type="id">false</item>
     <item name="download_process_bar" type="id">false</item>
@@ -9,6 +11,7 @@
     <item name="relativeLayout1" type="id">false</item>
     <item name="update_cancel_btn" type="id">false</item>
     <string name="app_name">wanAndroidDX</string>
+    <style name="AppTheme.AppBarOverlay" parent="@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppThemeNew" parent="android:Theme.Light">
         <item name="android:windowNoTitle">true</item>
         <item name="android:activityOpenEnterAnimation">@null</item>
@@ -21,6 +24,11 @@
         </item>
         <item name="android:minHeight">6dip</item>
         <item name="android:maxHeight">6dip</item>
+    </style>
+    <style name="MyAppthemeTest" parent="@com.mpaas.android.res.base:style/Theme.AppCompat.NoActionBar">
+        <item name="com.mpaas.android.res.base:colorPrimary">@color/primaryColor</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="com.mpaas.android.res.base:colorPrimaryDark">@color/primaryDarkColor</item>
     </style>
     <style name="Transparent">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -55,6 +63,11 @@
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@android:color/transparent</item>
+    </style>
+    <style name="style_float_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
     </style>
     <style name="tablauncher_theme" parent="android:style/Theme.Light">
         <item name="android:windowBackground">@android:color/transparent</item>

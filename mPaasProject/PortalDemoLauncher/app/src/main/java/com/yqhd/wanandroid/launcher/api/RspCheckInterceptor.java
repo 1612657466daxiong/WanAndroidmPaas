@@ -29,9 +29,9 @@ public class RspCheckInterceptor implements Interceptor {
         try {
             ResponseBody rspBody = response.body();
             JSONObject jsonObject = new JSONObject(InterceptorUtils.getRspData(rspBody));
-            int status = jsonObject.getInt("status");
-            String msg =jsonObject.getString("msg");
-//            Log.e("status",status+"");
+            int status = jsonObject.getInt("errorCode");
+            String msg =jsonObject.getString("errorMsg");
+            Log.e("status",status+"");
 //            switch (status){
 //                case I.STATUS_CODE.USER_LOGIN_IS_INVALID://登录失效
 //                    throw new DataException(msg,status);
@@ -58,9 +58,6 @@ public class RspCheckInterceptor implements Interceptor {
 //                case I.STATUS_CODE.IS_USE_BY_CODE_255:
 //                    throw new DataException(msg,status);
 //            }
-        } catch (JSONException e) {
-            Log.e("JsonException",e.toString());
-            throw new DataException("数据获取异常",-1);
         }catch (Exception e){
             if (e instanceof IOException){
                 Log.e("IOException",e.toString());

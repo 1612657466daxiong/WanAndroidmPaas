@@ -1,7 +1,6 @@
 apply plugin: 'maven'
 buildscript {
     repositories {
-//        google()
         jcenter()
         mavenLocal()
 
@@ -30,9 +29,7 @@ allprojects {
             // lib module compile aar
             //dirs project(":api").file("libs")
         }
-//        google()
         jcenter()
-//        google()
         mavenLocal()
        maven {url 'http://maven.aliyun.com/nexus/content/repositories/google'}
         maven {

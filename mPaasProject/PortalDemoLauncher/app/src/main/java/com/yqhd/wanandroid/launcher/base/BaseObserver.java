@@ -3,7 +3,7 @@ package com.yqhd.wanandroid.launcher.base;
 import android.content.Context;
 
 import io.reactivex.Observer;
-import io.reactivex.annotations.NonNull;
+
 import io.reactivex.disposables.Disposable;
 
 

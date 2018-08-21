@@ -2,13 +2,6 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.3.1\99ce730034c6f5aaed710d1e0e9df95e8714ed5f\logging-interceptor-3.3.1.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
-        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.3.1_4e2f8036401a7733bb0f537b0bbe79835c40cb9c.jar" />
-    </item>
-    <item
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
         jumboMode="false"
         revision="19.1.0"
@@ -26,7 +19,7 @@
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\PortalDemoLauncher\api\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="ee99a4a434bd8597f874c1c80efa207cb36b05c6">
+        sha1="c46f5a0a5b27a16b57da3df19b70b9b84c608911">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\PortalDemoLauncher-api-unspecified_fa533639aa8cc439ec02030a65a2b83cda4965fb.jar" />
     </item>
     <item

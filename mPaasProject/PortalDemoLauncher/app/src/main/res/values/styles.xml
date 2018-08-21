@@ -1,2 +1,36 @@
 <resources>
+    <style name="MyAppthemeTest"
+
+        parent="@com.mpaas.android.res.base:style/Theme.AppCompat.NoActionBar">
+        <!--<item name="com.mpaas.android.res.base:colorPrimary">@color/primaryColor</item>-->
+        <!--&lt;!&ndash;   darker variant for the status bar and contextual app bars &ndash;&gt;-->
+        <!--<item name="com.mpaas.android.res.base:colorPrimaryDark">@color/primaryDarkColor</item>-->
+        <item name="android:textColor">@color/textInputHintColor</item>
+        <item name="android:textColorHint">@color/textInputHintColor</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="@com.mpaas.android.res.base:style/Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_54</item>
+        <item name="android:theme">@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+
+    <style name="TextInputAppTheme" parent="@com.mpaas.android.res.base:style/TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/textInputHintColor</item>
+        <item name="android:textColorHint">@color/textInputHintColor</item>
+    </style>
+    <style name="EditTextHintColor" parent="@com.mpaas.android.res.base:style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorHint">@color/textInputHintColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="style_float_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark" parent="@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark"/>
+
 </resources>

@@ -62,4 +62,27 @@
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowAnimationStyle">@null</item>
     </style>
+
+    <!--<style name="@com.yqhd.wanandroid.launcher:style/MyAppthemeTest"-->
+
+        <!--parent="@com.mpaas.android.res.base:style/Theme.AppCompat.NoActionBar">-->
+        <!--<item name="com.mpaas.android.res.base:colorPrimary">@color/primaryColor</item>-->
+        <!--&lt;!&ndash;   darker variant for the status bar and contextual app bars &ndash;&gt;-->
+        <!--<item name="com.mpaas.android.res.base:colorPrimaryDark">@color/primaryDarkColor</item>-->
+    <!--</style>-->
+    <style name="MyAppthemeTest"
+
+        parent="@com.mpaas.android.res.base:style/Theme.AppCompat.NoActionBar">
+        <item name="com.mpaas.android.res.base:colorPrimary">@color/primaryColor</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="com.mpaas.android.res.base:colorPrimaryDark">@color/primaryDarkColor</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="style_float_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+    </style>
+
 </resources>

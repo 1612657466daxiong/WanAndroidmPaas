@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\jniLibs"><file name="armeabi/lib_portal_plugin_tmp_.so" path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\main\jniLibs\armeabi\lib_portal_plugin_tmp_.so"/></source></dataSet><dataSet config="debug"><source path="E:\WanAndroid\mPaasProject\PortalDemo\app\src\debug\jniLibs"/></dataSet></merger>

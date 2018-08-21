@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/paper_yellow"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res/com.mpaas.android.res.base"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/AppTheme.Toolbar"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_80"
+        android:text="@string/login"
+        android:textSize="@dimen/sp_24"
+        android:gravity="center"/>
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        android:layout_marginTop="@dimen/dp_50"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_account"
+            android:layout_gravity="center_vertical"
+
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_20"
+
+            android:hint="username"
+            android:theme="@style/MyAppthemeTest"
+            app:hintTextAppearance="@style/TextInputAppTheme"
+            app:hintAnimationEnabled="true"
+            >
+
+            <EditText
+                android:id="@+id/ed_username"
+                android:layout_marginTop="200dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingEnd="@dimen/dp_10"
+                android:paddingStart="@dimen/dp_10"
+                android:theme="@style/EditTextHintColor"
+                android:textSize="@dimen/sp_20"
+                android:background="@null"
+                android:layout_gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        android:layout_gravity="center_horizontal"
+        android:background="#333333">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_password"/>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextInputAppTheme"
+            app:hintAnimationEnabled="true"
+            android:theme="@style/MyAppthemeTest"
+            android:hint="password"
+            android:textSize="@dimen/sp_20"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/ed_password"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingEnd="@dimen/dp_10"
+                android:paddingStart="@dimen/dp_10"
+                android:theme="@style/EditTextHintColor"
+                android:textSize="@dimen/sp_20"
+                android:background="@null"
+                android:inputType="textPassword"
+                android:layout_gravity="center_horizontal"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        android:layout_gravity="center_horizontal"
+        android:background="#333333">
+
+    </View>
+    <Button
+
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="login"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="register"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/dp_64"
+        android:layout_marginRight="@dimen/dp_64"
+        />
+</LinearLayout>
