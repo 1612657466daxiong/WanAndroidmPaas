@@ -7,4 +7,7 @@ package com.yqhd.wanandroid.launcher.request;
  */
 public interface ReqestType {
     int LOGIN =1;
+    int REGISTER =2;
+    int BANNER = 3;
+    int GET_HOME_FEED_LIST = 4;
 }

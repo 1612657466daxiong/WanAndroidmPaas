@@ -16,4 +16,10 @@
 
     <color name="drawer_item_bg_p">#e8e8e8</color>
     <color name="drawer_item_bg_n">#fffff9</color>
+
+    <color name="comment_text">#5b5d5c</color>
+    <color name="colorPrimaryOverlay">#00abff</color>
+    <color name="light_deep_red">#f9382a</color>
+    <color name="light_red">#e26d2e</color>
+    <color name="light_green">#3fc75f</color>
 </resources>

@@ -18,4 +18,18 @@
 
     <string name="navigation_drawer_open">Open drawer</string>
     <string name="navigation_drawer_close">Close drawer</string>
+    
+    //Edit Error
+    <string name="username_empty">UserName Not allowed to be empty</string>
+    <string name="password_empty">Password Not allowed to be empty</string>
+
+
+    //behavior
+    <string name="scale_down_show_behavior">com.yqhd.wanandroid.launcher.widget.behavior.ScaleDownShowBehavior</string>
+    <string name="scrlling_view_appbarlayout">com.yqhd.wanandroid.launcher.widget.behavior.ScrollingViewBehavior</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+
+
+    //ShareView
+    <string name="share_view">shareView</string>
 </resources>

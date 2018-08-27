@@ -33,4 +33,17 @@
     </style>
     <style name="ThemeOverlay.AppCompat.Dark" parent="@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark"/>
 
+    <style name="tab_menu_item">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:background">@color/colorCard</item>
+    <item name="android:button">@null</item>
+    <item name="android:gravity">center</item>
+    <item name="android:paddingTop">3dp</item>
+    <item name="android:textColor">@drawable/text_color_home_pager</item>
+    <item name="android:textSize">15sp</item>
+    </style>
+
+
 </resources>

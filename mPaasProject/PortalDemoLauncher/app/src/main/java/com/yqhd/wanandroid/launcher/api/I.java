@@ -7,6 +7,8 @@ package com.yqhd.wanandroid.launcher.api;
  */
 public interface I {
     String BASE_URL                                                         =                                               "http://www.wanandroid.com/";
+    String UTF_8 = "UTF-8";
+
     interface LOGIN_REGISTER{
         String LOGIN                                                        =                                               "user/login";
         String USERNAME                                                     =                                               "username";

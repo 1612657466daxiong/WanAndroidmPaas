@@ -12,7 +12,13 @@
     <string name="navigation">导航</string>
     <string name="project">项目</string>
 
+    //Edit Error
+    <string name="username_empty">用户名不允许为空</string>
+    <string name="password_empty">密码不允许为空</string>
 
     <string name="navigation_drawer_open">打开侧栏</string>
     <string name="navigation_drawer_close">关闭侧栏</string>
+
+    //shareview
+    <string name="share_view">shareView</string>
 </resources>

@@ -43,7 +43,6 @@ dependencies {
 
     apt 'com.alipay.android.tools:androidannotations:2.7.1@jar'
     provided 'com.alipay.android.phone.thirdparty:fastjson-api:1.1.45@jar'
-// androidsupport
     provided 'com.alipay.android.phone.thirdparty:androidsupport-api:13.23@jar'
 
     provided "com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:util@jar"
@@ -79,6 +78,7 @@ dependencies {
     provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:design@jar'
     provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:recyclerview@jar'
     provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:support-vector-drawable'
+    provided 'com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:cardview'
 //    compile 'io.reactivex:rxandroid:1.2.1'
 
 //    compile 'com.squareup.okhttp3:okhttp:3.8.0'
@@ -87,6 +87,13 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
     compile 'io.reactivex.rxjava2:rxjava:2.1.4'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.3'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.3'
+    compile 'com.youth.banner:banner:1.4.9'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
 
 //    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
 

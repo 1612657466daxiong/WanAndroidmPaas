@@ -24,17 +24,47 @@
             android:id="@+id/fragment_group"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-           />
+            android:clickable="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            />
         <android.support.design.widget.FloatingActionButton
+            android:id="@+id/main_floating_action_btn"
             android:layout_marginBottom="@dimen/dp_60"
             android:layout_marginEnd="@dimen/dp_16"
             style="@style/style_float_btn"
             android:src="@mipmap/icon_up_arrow"
+            app:layout_behavior="@string/scale_down_show_behavior"
             />
+
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginBottom="@dimen/dp_0"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:id="@+id/rbg_mian"
+            >
+            <RadioButton
+                android:id="@+id/rbtn_home_pager"
+                style="@style/tab_menu_item"
+                android:text="@string/home_pager"
+                android:drawableTop="@drawable/icon_hone_page"/>
+            <RadioButton
+                android:id="@+id/rbtn_knoweldge"
+                style="@style/tab_menu_item"
+                android:text="@string/knowledge_hierarchy"
+                android:drawableTop="@drawable/knowledge_hierarchy"/>
+            <RadioButton
+                android:id="@+id/rbtn_navigation"
+                style="@style/tab_menu_item"
+                android:text="@string/navigation"
+                android:drawableTop="@drawable/icon_navigation"/>
+            <RadioButton
+                android:id="@+id/rbtn_project"
+                style="@style/tab_menu_item"
+                android:text="@string/project"
+                android:drawableTop="@drawable/icon_project"/>
         </RadioGroup>
 
     </android.support.design.widget.CoordinatorLayout>

@@ -10,7 +10,9 @@ import com.alipay.mobile.framework.MicroApplicationContext;
 import com.alipay.mobile.framework.service.common.RpcService;
 import com.alipay.mobile.framework.service.common.TaskScheduleService;
 import com.google.gson.Gson;
+import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
+import com.yqhd.wanandroid.launcher.request.req.UserRegisterPostReq;
 
 import java.util.logging.LogRecord;
 
@@ -132,8 +134,17 @@ public class MPaasAPIUtils<T> {
     private void toWay() {
         String s=null;
         switch (functionType){
-            case ReqestType.LOGIN:
+            case ReqestType.LOGIN://API 添加则在这里添加分支
                 s =mYqClient.userLoginPost((UserLoginPostReq) params);
+                break;
+            case ReqestType.REGISTER://注册
+                s= mYqClient.userRegisterPost((UserRegisterPostReq) params);
+                break;
+            case ReqestType.BANNER://首页banner
+                s=mYqClient.bannerJsonGet();
+                break;
+            case ReqestType.GET_HOME_FEED_LIST://首页文章列表数据
+                s=mYqClient.articleListPageJsonGet((ArticleListPageJsonGetReq) params);
                 break;
         }
         if (mClazz.equals(String.class)){

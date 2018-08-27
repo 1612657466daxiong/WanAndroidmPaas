@@ -1,10 +1,22 @@
 package com.yqhd.wanandroid.launcher.api;
 
 
+import android.content.Intent;
+import android.util.Log;
+import android.widget.Toast;
+
 import com.yqhd.wanandroid.launcher.bean.Result;
 import com.yqhd.wanandroid.launcher.bean.User;
+import com.yqhd.wanandroid.launcher.request.MPaasAPIUtils;
+import com.yqhd.wanandroid.launcher.request.RequstDao;
+import com.yqhd.wanandroid.launcher.request.bean.loginBean;
+import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
+import com.yqhd.wanandroid.launcher.ui.activity.LoginActivity;
+import com.yqhd.wanandroid.launcher.ui.activity.MainActivity;
 
 import io.reactivex.Observable;
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
@@ -37,6 +49,9 @@ public class ApiMethods {
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
     }
+
+
+
 
 
 }

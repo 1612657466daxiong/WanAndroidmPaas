@@ -4,6 +4,7 @@ import android.content.Context;
 
 import com.yqhd.wanandroid.launcher.bean.Result;
 import com.yqhd.wanandroid.launcher.bean.User;
+import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
 
 /**
@@ -17,6 +18,22 @@ public class RequstDao {
         utils.setTimeOut(3000)
                 .targetClass(String.class)
                 .functionType(ReqestType.LOGIN,userLoginPostReq)
+                .monitor(listener);
+    }
+
+    public static void GetBanner(Context context,MPaasAPIUtils.OnCompleteListener<String> listener){
+        MPaasAPIUtils<String> utils = new MPaasAPIUtils<>(context);
+        utils.setTimeOut(5000)
+                .targetClass(String.class)
+                .functionType(ReqestType.BANNER,null)
+                .monitor(listener);
+    }
+
+    public static void GetFeedList(Context context, ArticleListPageJsonGetReq req,MPaasAPIUtils.OnCompleteListener<String> listener){
+        MPaasAPIUtils<String> utils = new MPaasAPIUtils<>(context);
+        utils.setTimeOut(5000)
+                .targetClass(String.class)
+                .functionType(ReqestType.GET_HOME_FEED_LIST,req)
                 .monitor(listener);
     }
 }

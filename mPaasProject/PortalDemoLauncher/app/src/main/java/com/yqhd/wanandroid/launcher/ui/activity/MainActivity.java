@@ -11,12 +11,17 @@ import com.yqhd.wanandroid.launcher.ui.fragment.HomePageFragment;
 import com.yqhd.wanandroid.launcher.ui.fragment.KnowledgeFragment;
 import com.yqhd.wanandroid.launcher.ui.fragment.NavigationFragment;
 import com.yqhd.wanandroid.launcher.ui.fragment.ProjectFragment;
+import com.yqhd.wanandroid.launcher.utils.StatusBarUtil;
 
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 
@@ -28,7 +33,10 @@ public class MainActivity extends BaseActivity {
     Toolbar mToolbar;
     TextView mTitleTv;
     FloatingActionButton mFloatingActionButton;
-//    BottomNavigationBar mBottomNavigationBar;
+
+    RadioGroup rdgTab;
+    RadioButton rbtnHome,rbtnKnowledge,rbtnNavigation,rbtnProject;
+
 
     NavigationFragment mNavigationFragment;
     KnowledgeFragment mKnowledgeFragment;
@@ -42,9 +50,16 @@ public class MainActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         initView();
+        initToolbar();
+        initListener();
         setDefaultFragment();
         initDrawerLayout();
     }
+
+    private void initToolbar() {
+        StatusBarUtil.setStatusColor(getWindow(), ContextCompat.getColor(this, R.color.textInputHintColor), 1f);
+    }
+
 
     private void initDrawerLayout() {
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this,mDrawableLayout,mToolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close){
@@ -83,66 +98,80 @@ public class MainActivity extends BaseActivity {
         mHomePageFragment = new HomePageFragment();
         transaction.replace(R.id.fragment_group, mHomePageFragment);
         transaction.commit();
+        mTitleTv.setText(getString(R.string.home_pager));
+        rbtnHome.setChecked(true);
     }
 
     private void initView() {
         mDrawableLayout = findViewById(R.id.drawer_layout);
         mToolbar = findViewById(R.id.common_toolbar);
-//        mBottomNavigationBar = findViewById(R.id.bottom_mian_naviagtion_bar);
-//        mBottomNavigationBar
-//                .addItem(new BottomNavigationItem(R.drawable.icon_home_pager_not_selected,"首页"))
-//                .addItem(new BottomNavigationItem(R.drawable.icon_knowledge_hierarchy_not_selected,"知识体系"))
-//                .addItem(new BottomNavigationItem(R.drawable.icon_navigation_not_selected,"导航"))
-//                .addItem(new BottomNavigationItem(R.drawable.icon_project_not_selected,"项目"))
-//                .setFirstSelectedPosition(0)
-//                .initialise();
-//        mBottomNavigationBar.setTabSelectedListener(this);
+        rdgTab = findViewById(R.id.rbg_mian);
+        mTitleTv = findViewById(R.id.common_toolbar_title_tv);
+        rbtnHome = findViewById(R.id.rbtn_home_pager);
     }
 
-//
-//    @Override
-//    public void onTabSelected(int position) {
-//        FragmentManager fm = this.getFragmentManager();
-//        //开启事务
-//        FragmentTransaction transaction = fm.beginTransaction();
-//        switch (position){
-//            case 0:
-//                if (mHomePageFragment.equals(null)){
-//                    mHomePageFragment = new HomePageFragment();
-//                }
-//                transaction.replace(R.id.fragment_group, mHomePageFragment);
-//                break;
-//            case 1:
-//                if (mKnowledgeFragment.equals(null)){
-//                    mKnowledgeFragment = new KnowledgeFragment();
-//                }
-//                transaction.replace(R.id.fragment_group, mKnowledgeFragment);
-//                break;
-//            case 2:
-//                if (mNavigationFragment.equals(null)){
-//                    mNavigationFragment = new NavigationFragment();
-//                }
-//                transaction.replace(R.id.fragment_group, mNavigationFragment);
-//                break;
-//            case 3:
-//                if (mProjectFragment.equals(null)){
-//                    mProjectFragment = new ProjectFragment();
-//                }
-//                transaction.replace(R.id.fragment_group, mProjectFragment);
-//                break;
-//            default:
-//                break;
-//        }
-//        transaction.commit();
-//    }
-//
-//    @Override
-//    public void onTabUnselected(int position) {
-//
-//    }
-//
-//    @Override
-//    public void onTabReselected(int position) {
-//
-//    }
+    private void initListener() {
+        rdgTab.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                FragmentTransaction transaction =getFragmentManager().beginTransaction();
+                hideAllFragment(transaction);
+                switch (i){
+                    case R.id.rbtn_home_pager:
+                        if(mHomePageFragment==null){
+                            mHomePageFragment = new HomePageFragment();
+                            transaction.add(R.id.fragment_group,mHomePageFragment);
+                        }else{
+                            transaction.show(mHomePageFragment);
+                        }
+                        mTitleTv.setText(getString(R.string.home_pager));
+                        break;
+                    case R.id.rbtn_knoweldge:
+                        if(mKnowledgeFragment==null){
+                            mKnowledgeFragment = new KnowledgeFragment();
+                            transaction.add(R.id.fragment_group,mKnowledgeFragment);
+                        }else{
+                            transaction.show(mKnowledgeFragment);
+                        }
+                        mTitleTv.setText(getString(R.string.knowledge_hierarchy));
+                        break;
+                    case R.id.rbtn_navigation:
+                        if(mNavigationFragment==null){
+                            mNavigationFragment = new NavigationFragment();
+                            transaction.add(R.id.fragment_group,mNavigationFragment);
+                        }else{
+                            transaction.show(mNavigationFragment);
+                        }
+                        mTitleTv.setText(getString(R.string.navigation));
+                        break;
+                    case R.id.rbtn_project:
+                        if(mProjectFragment==null){
+                            mProjectFragment = new ProjectFragment();
+                            transaction.add(R.id.fragment_group,mProjectFragment);
+                        }else{
+                            transaction.show(mProjectFragment);
+                        }
+                        mTitleTv.setText(getString(R.string.project));
+                        break;
+                }
+                transaction.commit();
+            }
+        });
+    }
+
+
+    public void hideAllFragment(FragmentTransaction transaction) {
+        if (mHomePageFragment != null) {
+            transaction.hide(mHomePageFragment);
+        }
+        if (mKnowledgeFragment != null) {
+            transaction.hide(mKnowledgeFragment);
+        }
+        if (mNavigationFragment != null) {
+            transaction.hide(mNavigationFragment);
+        }
+        if (mProjectFragment != null) {
+            transaction.hide(mProjectFragment);
+        }
+    }
 }

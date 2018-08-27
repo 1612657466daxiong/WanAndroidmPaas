@@ -7,7 +7,11 @@
             android:name=".ui.activity.MainActivity"
             android:screenOrientation="portrait"
              />
-        <activity android:name=".ui.activity.LoginActivity"></activity>
+        <activity android:name=".ui.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+
+        </activity>
     </application>
 
 </manifest>

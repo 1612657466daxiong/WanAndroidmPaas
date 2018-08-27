@@ -46,10 +46,19 @@ public class LoginActivity extends BaseActivity {
     }
 
     private void LoginRequst() {
-
+        if (mEdUsername.equals(null)){
+            mEdUsername.setError(getString(R.string.username_empty));
+            return;
+        }
+        if (mEdPassword.equals(null)){
+            mEdPassword.setError(getString(R.string.password_empty));
+            return;
+        }
+        String username = mEdUsername.getText().toString();
+        String password = mEdPassword.getText().toString();
         UserLoginPostReq userLoginPostReq = new UserLoginPostReq();
 
-        userLoginPostReq._requestBody = new loginBean("doraemon","123456789");
+        userLoginPostReq._requestBody = new loginBean(username,password);
         RequstDao.Login(this, userLoginPostReq, new MPaasAPIUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
