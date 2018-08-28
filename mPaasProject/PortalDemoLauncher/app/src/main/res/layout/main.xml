@@ -44,6 +44,7 @@
             android:orientation="horizontal"
             android:layout_gravity="bottom"
             android:id="@+id/rbg_mian"
+            app:layout_behavior="@string/buttom_behavior_main"
             >
             <RadioButton
                 android:id="@+id/rbtn_home_pager"

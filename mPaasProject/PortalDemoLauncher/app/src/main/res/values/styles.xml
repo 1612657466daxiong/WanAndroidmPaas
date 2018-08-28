@@ -12,6 +12,7 @@
     <style name="AppTheme.Toolbar" parent="@com.mpaas.android.res.base:style/Widget.AppCompat.ActionBar">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/dp_54</item>
+        <item name="android:textSize">@dimen/sp_16</item>
         <item name="android:theme">@com.mpaas.android.res.base:style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
     </style>
 
@@ -44,6 +45,7 @@
     <item name="android:textColor">@drawable/text_color_home_pager</item>
     <item name="android:textSize">15sp</item>
     </style>
+
 
 
 </resources>

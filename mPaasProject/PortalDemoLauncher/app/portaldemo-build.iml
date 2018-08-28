@@ -111,12 +111,12 @@
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.170613203916:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.github.CymChad:BaseRecyclerViewAdapterHelper-2.9.22" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:framework-api:2.1.1@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.squareup.retrofit2:adapter-rxjava2:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="org.reactivestreams:reactive-streams:1.0.1@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:recyclerview@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.squareup.retrofit2:adapter-rxjava2:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:api@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.squareup.okhttp3:okhttp:3.8.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebulabiz-build:1.6.0.170725194756:mpaasnebulabiz@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:appcompat@jar" level="project" />
@@ -130,8 +130,8 @@
     <orderEntry type="library" exported="" name="com.scwang.smartrefresh:SmartRefreshHeader-1.0.3" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:nebula@jar" level="project" />
     <orderEntry type="library" exported="" name="com.scwang.smartrefresh:SmartRefreshLayout-1.0.3" level="project" />
-    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:tianyan@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:cardview@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:tianyan@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:commonservice-build:1.9.0.170613221028:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.thirdparty:wire-build:1.5.3.370506012228:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:monitor-build:2.1.0.170620210603:api@jar" level="project" />
@@ -142,13 +142,13 @@
     <orderEntry type="library" exported="" name="com.squareup.okio:okio:1.13.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.thirdparty:utdid-build:1.1.5.170410144530:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:tianyanadapter-build:1.0.4.170619110340:auto-tracker@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:util@jar" level="project" />
     <orderEntry type="library" exported="" name="com.squareup.retrofit2:retrofit:2.3.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:util@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:design@jar" level="project" />
     <orderEntry type="library" exported="" name="io.reactivex.rxjava2:rxandroid-2.0.1" level="project" />
-    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:tianyan@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:api@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:tianyan@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.youth.banner:banner-1.4.9" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.thirdparty:fastjson-api:1.1.45@jar" level="project" />

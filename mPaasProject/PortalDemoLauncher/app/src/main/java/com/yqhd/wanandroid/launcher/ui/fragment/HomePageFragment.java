@@ -2,6 +2,7 @@ package com.yqhd.wanandroid.launcher.ui.fragment;
 
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,9 +13,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
+import com.alipay.mobile.framework.LauncherApplicationAgent;
+import com.alipay.mobile.h5container.api.H5Bundle;
+import com.alipay.mobile.h5container.api.H5Param;
+import com.alipay.mobile.h5container.service.H5Service;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
+import com.youth.banner.listener.OnBannerListener;
 import com.yqhd.wanandroid.launcher.R;
 import com.yqhd.wanandroid.launcher.adapter.ArticleListAdapter;
 import com.yqhd.wanandroid.launcher.bean.BannerData;
@@ -24,6 +30,7 @@ import com.yqhd.wanandroid.launcher.bean.Result;
 import com.yqhd.wanandroid.launcher.request.MPaasAPIUtils;
 import com.yqhd.wanandroid.launcher.request.RequstDao;
 import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
+import com.yqhd.wanandroid.launcher.ui.activity.WebActivity;
 import com.yqhd.wanandroid.launcher.utils.GlideImageLoader;
 import com.yqhd.wanandroid.launcher.utils.ResultUtil;
 
@@ -120,9 +127,15 @@ public class HomePageFragment extends Fragment {
                 //设置指示器位置（当banner模式中有指示器时）
                 mBanner.setIndicatorGravity(BannerConfig.CENTER);
 
-//                mBanner.setOnBannerListener(i -> JudgeUtils.startArticleDetailActivity(getActivity(), null,
-//                        0, mBannerTitleList.get(i), mBannerUrlList.get(i),
-//                        false, false, true));
+                mBanner.setOnBannerListener(new OnBannerListener() {
+                    @Override
+                    public void OnBannerClick(int position) {
+                        String url = mBannerUrlList.get(position);
+                        Intent intent = new Intent(getActivity(), WebActivity.class);
+                        intent.putExtra("url",url);
+                        startActivity(intent);
+                    }
+                });
                 //banner设置方法全部调用完毕时最后调用
                 mBanner.start();
             }
@@ -137,6 +150,23 @@ public class HomePageFragment extends Fragment {
     private void initView() {
         mBanner = view.findViewById(R.id.head_banner);
         mRecycleView = view.findViewById(R.id.home_recyclerview);
+    }
+
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (mBanner != null) {
+            mBanner.startAutoPlay();
+        }
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (mBanner != null) {
+            mBanner.stopAutoPlay();
+        }
     }
 
 

@@ -82,7 +82,7 @@
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\PortalDemoLauncher\api\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="0058b5e69e445994a656cb7a6c3ac5034337e415">
+        sha1="1d778f40b3b35e9488a700c410f243cec23417cd">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\PortalDemoLauncher-api-unspecified_fa533639aa8cc439ec02030a65a2b83cda4965fb.jar" />
     </item>
     <item

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/com.mpaas.android.res.base"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/web_activity_layout"
+    android:orientation="vertical"
+    android:theme="@style/MyAppthemeTest"
+    tools:context="com.yqhd.wanandroid.launcher.ui.activity.WebActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/article_detail_toolbar"
+       style="@style/AppTheme.Toolbar"
+        android:theme="@style/MyAppthemeTest"
+        android:background="@drawable/blue_gradient_bg"
+        app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+        app:titleTextAppearance="@style/AppTheme.Toolbar"
+        >
+
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:id="@+id/article_detail_web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:transitionName="@string/share_view">
+
+    </FrameLayout>
+</LinearLayout>
