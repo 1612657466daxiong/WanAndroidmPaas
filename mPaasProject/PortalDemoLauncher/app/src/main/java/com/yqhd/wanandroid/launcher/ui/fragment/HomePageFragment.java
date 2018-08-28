@@ -27,9 +27,11 @@ import com.yqhd.wanandroid.launcher.bean.BannerData;
 import com.yqhd.wanandroid.launcher.bean.FeedArticleData;
 import com.yqhd.wanandroid.launcher.bean.FeedListData;
 import com.yqhd.wanandroid.launcher.bean.Result;
+import com.yqhd.wanandroid.launcher.db.SharedPreferenceDao;
 import com.yqhd.wanandroid.launcher.request.MPaasAPIUtils;
 import com.yqhd.wanandroid.launcher.request.RequstDao;
 import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
+import com.yqhd.wanandroid.launcher.ui.activity.LoginActivity;
 import com.yqhd.wanandroid.launcher.ui.activity.WebActivity;
 import com.yqhd.wanandroid.launcher.utils.GlideImageLoader;
 import com.yqhd.wanandroid.launcher.utils.ResultUtil;
@@ -62,10 +64,20 @@ public class HomePageFragment extends Fragment {
         // Inflate the layout for this fragment
       view = inflater.inflate(R.layout.fragment_home_page, container, false);
       initView();
+      autoLogin();
       initBannerData();
       initFeedList();
       DownLoadFeedList(1);
       return view;
+    }
+
+    private void autoLogin() {
+        if (SharedPreferenceDao.getInstance(getActivity()).getUser()!=null){
+
+        }else {
+            Intent intent = new Intent(getActivity(), LoginActivity.class);
+            startActivity(intent);
+        }
     }
 
     private void DownLoadFeedList(int page) {

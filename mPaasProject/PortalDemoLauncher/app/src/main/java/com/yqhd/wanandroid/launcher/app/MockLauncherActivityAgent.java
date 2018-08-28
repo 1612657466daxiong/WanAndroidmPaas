@@ -25,7 +25,7 @@ public class MockLauncherActivityAgent extends LauncherActivityAgent {
 
         new Handler().postDelayed(new Runnable() {
             public void run() {
-                Intent intent = new Intent(activity, LoginActivity.class);
+                Intent intent = new Intent(activity, MainActivity.class);
                 activity.startActivity(intent);
                 activity.finish();
             }

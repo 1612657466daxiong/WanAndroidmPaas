@@ -13,10 +13,14 @@ import android.widget.Toast;
 
 import com.alipay.mobile.framework.app.ui.BaseActivity;
 import com.yqhd.wanandroid.launcher.R;
+import com.yqhd.wanandroid.launcher.bean.Result;
+import com.yqhd.wanandroid.launcher.bean.User;
+import com.yqhd.wanandroid.launcher.db.SharedPreferenceDao;
 import com.yqhd.wanandroid.launcher.request.MPaasAPIUtils;
 import com.yqhd.wanandroid.launcher.request.RequstDao;
 import com.yqhd.wanandroid.launcher.request.bean.loginBean;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
+import com.yqhd.wanandroid.launcher.utils.ResultUtil;
 import com.yqhd.wanandroid.launcher.utils.StatusBarUtil;
 
 public class LoginActivity extends BaseActivity {
@@ -62,7 +66,11 @@ public class LoginActivity extends BaseActivity {
         RequstDao.Login(this, userLoginPostReq, new MPaasAPIUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
-                Toast.makeText(LoginActivity.this, "成功"+result, Toast.LENGTH_SHORT).show();
+                Result resultFromJson = ResultUtil.getResultFromJson(result, User.class);
+                User user = (User) resultFromJson.getData();
+                SharedPreferenceDao.getInstance(getApplicationContext()).saveUser(user.getUsername());
+                SharedPreferenceDao.getInstance(getApplicationContext()).savePwd(user.getPassword());
+//                Toast.makeText(LoginActivity.this, "成功"+result, Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
                 startActivity(intent);
             }
