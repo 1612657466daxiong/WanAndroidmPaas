@@ -52,7 +52,6 @@ public class ResultUtil {
                     }
                     result.setData(list);
 
-
                     return result;
                 }
             }else{

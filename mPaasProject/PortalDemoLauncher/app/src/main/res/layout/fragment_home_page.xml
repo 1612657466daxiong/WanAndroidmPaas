@@ -22,7 +22,8 @@
             />
         <android.support.v7.widget.RecyclerView
            android:background="@color/white"
-            android:visibility="invisible"
+
+            android:id="@+id/home_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

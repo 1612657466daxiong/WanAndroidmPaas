@@ -28,6 +28,7 @@
     <string name="scale_down_show_behavior">com.yqhd.wanandroid.launcher.widget.behavior.ScaleDownShowBehavior</string>
     <string name="scrlling_view_appbarlayout">com.yqhd.wanandroid.launcher.widget.behavior.ScrollingViewBehavior</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bye_burger_bottom_behavior">com.wingsofts.byeburgernavigationview.ByeBurgerBottomBehavior</string>
 
 
     //ShareView

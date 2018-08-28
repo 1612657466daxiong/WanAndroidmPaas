@@ -22,4 +22,7 @@
     <color name="light_deep_red">#f9382a</color>
     <color name="light_red">#e26d2e</color>
     <color name="light_green">#3fc75f</color>
+    <color name="card_color">#202124</color>
+    <color name="card_bac">#f7f3f3</color>
+    <color name="deep_red">#dc3b1f</color>
 </resources>

@@ -4,6 +4,9 @@ package com.yqhd.wanandroid.launcher.ui.fragment;
 import android.app.Fragment;
 import android.os.Bundle;
 
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +16,14 @@ import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
 import com.yqhd.wanandroid.launcher.R;
+import com.yqhd.wanandroid.launcher.adapter.ArticleListAdapter;
 import com.yqhd.wanandroid.launcher.bean.BannerData;
+import com.yqhd.wanandroid.launcher.bean.FeedArticleData;
+import com.yqhd.wanandroid.launcher.bean.FeedListData;
 import com.yqhd.wanandroid.launcher.bean.Result;
 import com.yqhd.wanandroid.launcher.request.MPaasAPIUtils;
 import com.yqhd.wanandroid.launcher.request.RequstDao;
+import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
 import com.yqhd.wanandroid.launcher.utils.GlideImageLoader;
 import com.yqhd.wanandroid.launcher.utils.ResultUtil;
 
@@ -27,12 +34,15 @@ import java.util.List;
  * A simple {@link Fragment} subclass.
  */
 public class HomePageFragment extends Fragment {
-    View view;
-    Banner mBanner;
-    List<String> mBannerTitleList;
-    List<String> mBannerUrlList;
-
-
+    private View view;
+    private Banner mBanner;
+    private RecyclerView mRecycleView;
+    private List<String> mBannerTitleList;
+    private List<String> mBannerUrlList;
+    private List<FeedArticleData> mFeedArticleDataList;
+    private ArticleListAdapter mAdapter;
+    private int articlePosition;
+    private boolean isRecreate;
     public HomePageFragment() {
         // Required empty public constructor
     }
@@ -47,11 +57,35 @@ public class HomePageFragment extends Fragment {
       initView();
       initBannerData();
       initFeedList();
+      DownLoadFeedList(1);
       return view;
     }
 
-    private void initFeedList() {
+    private void DownLoadFeedList(int page) {
+        ArticleListPageJsonGetReq req = new ArticleListPageJsonGetReq();
+        req.page = page;
+        RequstDao.GetFeedList(getActivity(), req, new MPaasAPIUtils.OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String result) {
+                Log.e("feedList",result);
+                Result listResultFromJson = ResultUtil.getResultFromJson(result, FeedListData.class);
+                FeedListData datas = (FeedListData) listResultFromJson.getData();
+                mAdapter.addData(datas.getDatas());
+            }
 
+            @Override
+            public void onError(String error) {
+
+            }
+        });
+    }
+
+    private void initFeedList() {
+        mFeedArticleDataList = new ArrayList<>();
+        mAdapter = new ArticleListAdapter(R.layout.item_feed_layout,mFeedArticleDataList);
+        mRecycleView.setLayoutManager(new LinearLayoutManager(getActivity()));
+        mRecycleView.setHasFixedSize(true);
+        mRecycleView.setAdapter(mAdapter);
     }
 
     private void initBannerData() {
@@ -102,7 +136,7 @@ public class HomePageFragment extends Fragment {
 
     private void initView() {
         mBanner = view.findViewById(R.id.head_banner);
-
+        mRecycleView = view.findViewById(R.id.home_recyclerview);
     }
 
 
