@@ -17,25 +17,35 @@ import com.alipay.mobile.h5container.api.H5Page;
 import com.alipay.mobile.h5container.api.H5Param;
 import com.alipay.mobile.h5container.service.H5Service;
 import com.yqhd.wanandroid.launcher.R;
+import com.yqhd.wanandroid.launcher.app.Constants;
 import com.yqhd.wanandroid.launcher.utils.StatusBarUtil;
 
 public class WebActivity extends BaseActivity {
     Toolbar mToolbar;
     FrameLayout mWebContent;
+    private Bundle bundle;
+    private int articleId;
+    private String articleLink;
+    private String title;
+
+    private boolean isCollect;
+    private boolean isCommonSite;
+    private boolean isCollectPage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
+        getData();
         initView();
         initData();
     }
 
     private void initData() {
-        String url = getIntent().getStringExtra("url");
-        if (url!=null){
+
+        if (articleLink!=null){
             Bundle param = new Bundle();
-            param.putString(H5Param.LONG_URL, url);
+            param.putString(H5Param.LONG_URL, articleLink);
             H5Bundle bundle = new H5Bundle();
             bundle.setParams(param);
             H5Service h5Service = LauncherApplicationAgent.getInstance().getMicroApplicationContext()
@@ -57,4 +67,14 @@ public class WebActivity extends BaseActivity {
         StatusBarUtil.setPaddingSmart(this, mToolbar);
     }
 
+    public void getData() {
+        bundle = getIntent().getExtras();
+        assert bundle != null;
+        title = (String) bundle.get(Constants.ARTICLE_TITLE);
+        articleLink = (String) bundle.get(Constants.ARTICLE_LINK);
+        articleId = ((int) bundle.get(Constants.ARTICLE_ID));
+        isCommonSite = ((boolean) bundle.get(Constants.IS_COMMON_SITE));
+        isCollect = ((boolean) bundle.get(Constants.IS_COLLECT));
+        isCollectPage = ((boolean) bundle.get(Constants.IS_COLLECT_PAGE));
+    }
 }

@@ -45,38 +45,47 @@
   <!-- Declared at res\mipmap-xxxhdpi-v4\ic_launcher.png:0 -->
   <public type="mipmap" name="ic_launcher" id="0x7f0c0000" />
 
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:14 -->
-  <public type="style" name="AppTheme.AppBarOverlay" id="0x7f03015b" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:15 -->
-  <public type="style" name="AppThemeNew" id="0x7f03015c" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:28 -->
-  <public type="style" name="MyAppthemeTest" id="0x7f03015d" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:33 -->
-  <public type="style" name="Transparent" id="0x7f03015e" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:38 -->
-  <public type="style" name="TransparentNoAnimationTheme" id="0x7f03015f" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:43 -->
-  <public type="style" name="h5_transparent" id="0x7f030163" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:61 -->
-  <public type="style" name="share_select_dialog" id="0x7f030164" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:67 -->
-  <public type="style" name="style_float_btn" id="0x7f030165" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:72 -->
-  <public type="style" name="tablauncher_theme" id="0x7f030166" />
-
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:10 -->
-  <public type="id" name="promt" id="0x7f0b007f" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:11 -->
-  <public type="id" name="relativeLayout1" id="0x7f0b0085" />
-
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:3 -->
-  <public type="color" name="primaryColor" id="0x7f0a0054" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:4 -->
-  <public type="color" name="primaryDarkColor" id="0x7f0a0055" />
-  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:5 -->
-  <public type="color" name="white_color" id="0x7f0a0056" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:17 -->
+  <public type="style" name="AppThemeNew" id="0x7f03015b" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:30 -->
+  <public type="style" name="Transparent" id="0x7f03015c" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:35 -->
+  <public type="style" name="TransparentNoAnimationTheme" id="0x7f03015d" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:40 -->
+  <public type="style" name="h5_transparent" id="0x7f03015e" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:58 -->
+  <public type="style" name="share_select_dialog" id="0x7f03015f" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:64 -->
+  <public type="style" name="tablauncher_theme" id="0x7f030163" />
 
   <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:13 -->
+  <public type="id" name="promt" id="0x7f0b007f" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:14 -->
+  <public type="id" name="relativeLayout1" id="0x7f0b0085" />
+
+  <!-- Declared at res\anim\push_left_in.xml:0 -->
+  <public type="anim" name="push_left_in" id="0x7f050010" />
+  <!-- Declared at res\anim\push_left_out.xml:0 -->
+  <public type="anim" name="push_left_out" id="0x7f050011" />
+  <!-- Declared at res\anim\push_right_in.xml:0 -->
+  <public type="anim" name="push_right_in" id="0x7f050012" />
+  <!-- Declared at res\anim\push_right_out.xml:0 -->
+  <public type="anim" name="push_right_out" id="0x7f050013" />
+
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:3 -->
+  <public type="color" name="colorPrimary" id="0x7f0a0054" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:4 -->
+  <public type="color" name="primaryColor" id="0x7f0a0055" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:5 -->
+  <public type="color" name="primaryDarkColor" id="0x7f0a0056" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:6 -->
+  <public type="color" name="title_black" id="0x7f0a0057" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:7 -->
+  <public type="color" name="white" id="0x7f0a0058" />
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:8 -->
+  <public type="color" name="white_color" id="0x7f0a0059" />
+
+  <!-- Declared at E:\WanAndroid\mPaasProject\PortalDemo\app\build\intermediates\res\merged\debug\values\values.xml:16 -->
   <public type="string" name="app_name" id="0x7f060017" />
 
 </resources>

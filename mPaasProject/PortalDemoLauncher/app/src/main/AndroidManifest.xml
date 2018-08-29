@@ -5,7 +5,8 @@
     <application>
         <activity
             android:name=".ui.activity.MainActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".ui.activity.LoginActivity"
             android:launchMode="singleTask"

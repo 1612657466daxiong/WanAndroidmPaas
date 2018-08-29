@@ -8,12 +8,21 @@
 package com.yqhd.wanandroid;
 
 public final class R {
+    public static final class anim {
+        public static final int push_left_in=0x7f050010;
+        public static final int push_left_out=0x7f050011;
+        public static final int push_right_in=0x7f050012;
+        public static final int push_right_out=0x7f050013;
+    }
     public static final class attr {
     }
     public static final class color {
-        public static final int primaryColor=0x7f0a0054;
-        public static final int primaryDarkColor=0x7f0a0055;
-        public static final int white_color=0x7f0a0056;
+        public static final int colorPrimary=0x7f0a0054;
+        public static final int primaryColor=0x7f0a0055;
+        public static final int primaryDarkColor=0x7f0a0056;
+        public static final int title_black=0x7f0a0057;
+        public static final int white=0x7f0a0058;
+        public static final int white_color=0x7f0a0059;
     }
     public static final class drawable {
         public static final int download_cancel_btn_selector=0x7f04004f;
@@ -43,17 +52,14 @@ public final class R {
         public static final int app_name=0x7f060017;
     }
     public static final class style {
-        public static final int AppTheme_AppBarOverlay=0x7f03015b;
-        public static final int AppThemeNew=0x7f03015c;
+        public static final int AppThemeNew=0x7f03015b;
         public static final int Download_ProgressBar_Horizontal=0x7f030162;
-        public static final int MyAppthemeTest=0x7f03015d;
-        public static final int Transparent=0x7f03015e;
-        public static final int TransparentNoAnimationTheme=0x7f03015f;
-        public static final int h5_transparent=0x7f030163;
+        public static final int Transparent=0x7f03015c;
+        public static final int TransparentNoAnimationTheme=0x7f03015d;
+        public static final int h5_transparent=0x7f03015e;
         public static final int notify_progress=0x7f030161;
         public static final int notify_title=0x7f030160;
-        public static final int share_select_dialog=0x7f030164;
-        public static final int style_float_btn=0x7f030165;
-        public static final int tablauncher_theme=0x7f030166;
+        public static final int share_select_dialog=0x7f03015f;
+        public static final int tablauncher_theme=0x7f030163;
     }
 }

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\retrofit-2.3.0_098b09b6a11593dc20fc4b42f55a6f8fd8090285.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\okio-1.13.0_f63c7ab08dbed3c34e0fe0b9b1a691240ffa1bb7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava2\2.3.0\f436637f9500ab5b8bc32afe556373180894b4a5\adapter-rxjava2-2.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\adapter-rxjava2-2.3.0_44f20bf39a10c4d40d1c07bbfcf28ac2b66d410f.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.9\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5f49fbc1bda3fa9073a82dd87de3e1ceea24268d">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.9_26c141b84e5631731621b770e0d5a9ff409a4021.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshLayout\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="864b22b1b5265743c8722cfaa2c6b5e00c98b265">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.scwang.smartrefresh-SmartRefreshLayout-1.0.3_72bb4bcfeadc568889f462c21a12887fad02fb57.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\io.reactivex.rxjava2\rxandroid\2.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\io.reactivex.rxjava2-rxandroid-2.0.1_2dcd0083c7fd6d0c87149a626f2d5bb5728a3295.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\glide-3.7.0_1f3ddf859a86296da03fddcf50d19f29d652df81.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.reactivex.rxjava2\rxjava\2.1.4\6a31162e65fba325430d9b9fec6b6e6ba31ee832\rxjava-2.1.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6a31162e65fba325430d9b9fec6b6e6ba31ee832">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\rxjava-2.1.4_35be72c86d3277806ba01a892a6ea1945a91f15c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.reactivestreams\reactive-streams\1.0.1\1b1c911686eb40179219466e6a59b634b9d7a748\reactive-streams-1.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1b1c911686eb40179219466e6a59b634b9d7a748">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\reactive-streams-1.0.1_0bbdd15a9180b15328f13ffc97b1cd38edb78e9b.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshHeader\1.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2e4d62cf7637ba271e9c876fdafdd513ab00dac4">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.scwang.smartrefresh-SmartRefreshHeader-1.0.3_623f0bf8a6585fe681675240750d8ff288a552fc.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\PortalDemoLauncher\api\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c932b1682385fca388b440cc85ae5c7800a0d8f8">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\PortalDemoLauncher-api-unspecified_fa533639aa8cc439ec02030a65a2b83cda4965fb.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.github.CymChad\BaseRecyclerViewAdapterHelper\2.9.22\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b7219f056e3abdba2d60d235b2593dff1928c3ae">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.github.CymChad-BaseRecyclerViewAdapterHelper-2.9.22_caf11987391500046680723d36261c4d06198b65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_553680e635ae731332198bb4f76e9def80b56aa3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_33bf805d1981bef7597a6907c10bb939ca43c5d6.jar" />
+    </item>
+
+</items>

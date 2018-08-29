@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //behavior
+    <string name="scale_down_show_behavior">com.yqhd.wanandroid.launcher.widget.behavior.ScaleDownShowBehavior</string>
+    <string name="scrlling_view_appbarlayout">com.yqhd.wanandroid.launcher.widget.behavior.ScrollingViewBehavior</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bye_burger_bottom_behavior">com.wingsofts.byeburgernavigationview.ByeBurgerBottomBehavior</string>
+    <string name="buttom_behavior_main"> com.yqhd.wanandroid.launcher.widget.behavior.BottomNavigationBehavior</string>
 
+    //ShareView
+    <string name="share_view">shareView</string>
 
     <string name="error_tips">不妙！加载失败了ヽ(≧Д≦)ノ\n 告诉大佬一些可能的原因：\n1.不可直视的网络环境\n 2.服务器大哥的不定期抽风\n 3.WanAndroid眼冒金星拒绝服务喔~</string>
     <!--<string name="about_content"><![CDATA[-->

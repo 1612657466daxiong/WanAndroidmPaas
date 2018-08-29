@@ -25,4 +25,6 @@
     <color name="card_color">#202124</color>
     <color name="card_bac">#f7f3f3</color>
     <color name="deep_red">#dc3b1f</color>
+    <color name="title_black">#222222</color>
+    <color name="colorPrimary">#00abff</color>
 </resources>
