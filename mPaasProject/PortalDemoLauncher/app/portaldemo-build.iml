@@ -83,10 +83,12 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.22/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.hyman/flowlayout-lib/1.1.2/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshHeader/1.0.3/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.scwang.smartrefresh/SmartRefreshLayout/1.0.3/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.10/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/q.rorbin/VerticalTabLayout/1.2.5/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/q.rorbin/badgeview/1.1.2/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-support" />
@@ -105,15 +107,18 @@
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="com.squareup.retrofit2:converter-gson:2.3.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="q.rorbin:badgeview-1.1.2" level="project" />
+    <orderEntry type="library" exported="" name="com.hyman:flowlayout-lib-1.1.2" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilecommon:dynamicrelease-build:2.3.3.170619183837:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:support-vector-drawable@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebulacore-build:1.6.0.170621012849:api@jar" level="project" />
+    <orderEntry type="library" exported="" name="q.rorbin:VerticalTabLayout-1.2.5" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:commonbizservice-build:1.7.0.170613203916:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.github.CymChad:BaseRecyclerViewAdapterHelper-2.9.22" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:framework-api:2.1.1@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.squareup.retrofit2:adapter-rxjava2:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:recyclerview@jar" level="project" />
     <orderEntry type="library" exported="" name="org.reactivestreams:reactive-streams:1.0.1@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.squareup.retrofit2:adapter-rxjava2:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebulaappcenter-build:1.6.2.170613180651:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.squareup.okhttp3:okhttp:3.8.0@jar" level="project" />
@@ -147,12 +152,12 @@
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:autotracker-build:1.0.0.170614103023:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.mpaas.android.res.base:mpaas-baseresjar:1.0.0.171211200326:design@jar" level="project" />
     <orderEntry type="library" exported="" name="io.reactivex.rxjava2:rxandroid-2.0.1" level="project" />
-    <orderEntry type="library" exported="" name="com.youth.banner:banner-1.4.10" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:logging-build:2.0.2.170621004742:tianyan@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.wallet:nebula-build:1.6.2.170618113927:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.mobilesdk:transport-build:1.7.3.170620215813:api@jar" level="project" />
     <orderEntry type="library" exported="" name="com.alipay.android.phone.thirdparty:fastjson-api:1.1.45@jar" level="project" />
     <orderEntry type="library" exported="" name="com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
+    <orderEntry type="module" module-name="banner" exported="" />
     <orderEntry type="module" module-name="api" exported="" />
   </component>
 </module>

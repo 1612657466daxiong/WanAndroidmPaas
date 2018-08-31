@@ -72,10 +72,17 @@
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.scwang.smartrefresh-SmartRefreshHeader-1.0.3_623f0bf8a6585fe681675240750d8ff288a552fc.jar" />
     </item>
     <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\q.rorbin\VerticalTabLayout\1.2.5\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="69e7a4fb6cf5bf12e3ce0d02a39b48477133f1e6">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\q.rorbin-VerticalTabLayout-1.2.5_968963810928d5c0b44605282698491326c74743.jar" />
+    </item>
+    <item
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\PortalDemoLauncher\api\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="620f7bef12b2894e51d025ea221d81db6523d347">
+        sha1="a745634a9f46eaf3efa9ea9a26054eab829734c2">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\PortalDemoLauncher-api-unspecified_fa533639aa8cc439ec02030a65a2b83cda4965fb.jar" />
     </item>
     <item
@@ -84,6 +91,13 @@
         revision="19.1.0"
         sha1="b7219f056e3abdba2d60d235b2593dff1928c3ae">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.github.CymChad-BaseRecyclerViewAdapterHelper-2.9.22_caf11987391500046680723d36261c4d06198b65.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\q.rorbin\badgeview\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="391288659480d2af2d45515369412dfd371206ec">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\q.rorbin-badgeview-1.1.2_f947d283e7379d766cf472dfc8dc87379516956b.jar" />
     </item>
     <item
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
@@ -96,7 +110,7 @@
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.10\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="a06299b94845356c731524654ba386d0877e6b53">
+        sha1="baf4808850cec4ffcfddad2dbb312ea1abdb4bf6">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.10_4c063205f7ecde3a30c9d5ab101ff7eb0b683f70.jar" />
     </item>
     <item
@@ -105,6 +119,13 @@
         revision="19.1.0"
         sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\okhttp-3.8.0_33bf805d1981bef7597a6907c10bb939ca43c5d6.jar" />
+    </item>
+    <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.hyman\flowlayout-lib\1.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7b66d88476e57666bbb1487366f2d7432413f9e0">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.hyman-flowlayout-lib-1.1.2_f851987e68b71f1b09866a8749a8457ec6967adf.jar" />
     </item>
 
 </items>

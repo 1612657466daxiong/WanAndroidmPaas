@@ -149,6 +149,9 @@ public class MPaasAPIUtils<T> {
             case ReqestType.GET_TREE_JSON://获取知识体系
                 s=mYqClient.treeJsonGet();
                 break;
+            case ReqestType.GET_NAVIGATION:
+                s = mYqClient.naviJsonGet();
+                break;
         }
         if (mClazz.equals(String.class)){
             Message msg = Message.obtain();

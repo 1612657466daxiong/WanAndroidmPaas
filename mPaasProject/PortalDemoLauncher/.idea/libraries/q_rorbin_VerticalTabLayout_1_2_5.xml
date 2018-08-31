@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="q.rorbin:VerticalTabLayout-1.2.5">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/q.rorbin/VerticalTabLayout/1.2.5/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/q.rorbin/VerticalTabLayout/1.2.5/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/q.rorbin/VerticalTabLayout/1.2.5/38fb8740eba8f375174c1b58fdb6559612e0ad3c/VerticalTabLayout-1.2.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

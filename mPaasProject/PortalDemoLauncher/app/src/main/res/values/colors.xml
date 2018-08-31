@@ -27,4 +27,11 @@
     <color name="deep_red">#dc3b1f</color>
     <color name="title_black">#222222</color>
     <color name="colorPrimary">#00abff</color>
+    <color name="deep_grey">#e6e6e6</color>
+    <color name="comment_line">#dddddd</color>
+    <color name="while_most_color">#e4e4e4</color>
+
+
+    <color name="shallow_green">#FF36BC9B</color>
+    <color name="shallow_grey">#FF757575</color>
 </resources>

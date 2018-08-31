@@ -11,4 +11,5 @@ public interface ReqestType {
     int BANNER = 3;
     int GET_HOME_FEED_LIST = 4;
     int GET_TREE_JSON = 5;
+    int GET_NAVIGATION =6;
 }

@@ -75,62 +75,38 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.core/runtime/1.1.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/livedata-core/1.1.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.1.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/viewmodel/1.1.1/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/asynclayoutinflater/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/coordinatorlayout/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/cursoradapter/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/customview/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/documentfile/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/drawerlayout/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/interpolator/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/loader/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/localbroadcastmanager/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/print/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/slidingpanelayout/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-compat/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-ui/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-utils/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-fragment/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-media-compat/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/swiperefreshlayout/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/versionedparcelable/28.0.0-rc02/jars" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/viewpager/28.0.0-rc02/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotations" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="android.arch.core:runtime-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-fragment-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:cursoradapter-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:swiperefreshlayout-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-compat-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:print-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-core-ui-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:viewpager-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:loader-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-v4-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:asynclayoutinflater-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="android.arch.core:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-annotations:28.0.0-rc02@jar" level="project" />
-    <orderEntry type="library" exported="" name="android.arch.lifecycle:runtime-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:documentfile-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:slidingpanelayout-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:support-media-compat-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:customview-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:drawerlayout-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:collections:28.0.0-rc02@jar" level="project" />
-    <orderEntry type="library" exported="" name="android.arch.lifecycle:viewmodel-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="android.arch.lifecycle:livedata-core-1.1.1" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:coordinatorlayout-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="android.arch.lifecycle:common:1.1.1@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:versionedparcelable-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:interpolator-28.0.0-rc02" level="project" />
-    <orderEntry type="library" exported="" name="com.android.support:localbroadcastmanager-28.0.0-rc02" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-fragment-25.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-annotations:25.0.0@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-media-compat-25.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-core-ui-25.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-compat-25.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-core-utils-25.0.0" level="project" />
+    <orderEntry type="library" exported="" name="com.android.support:support-v4-25.0.0" level="project" />
   </component>
 </module>

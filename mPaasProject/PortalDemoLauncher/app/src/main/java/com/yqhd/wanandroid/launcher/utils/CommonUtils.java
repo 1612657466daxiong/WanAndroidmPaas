@@ -1,5 +1,6 @@
 package com.yqhd.wanandroid.launcher.utils;
 
+import android.content.Context;
 import android.graphics.Color;
 
 import java.util.Random;
@@ -23,6 +24,11 @@ public class CommonUtils {
         int blue =random.nextInt(150);
         //使用rgb混合生成一种新的颜色,Color.rgb生成的是一个int数
         return Color.rgb(red,green, blue);
+    }
+
+    public static int dp2px(Context context,float dpValue) {
+        final float scale = context.getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
     }
 
 

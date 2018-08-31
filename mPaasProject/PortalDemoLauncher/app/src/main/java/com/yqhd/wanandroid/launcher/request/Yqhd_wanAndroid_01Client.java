@@ -33,4 +33,8 @@ public interface Yqhd_wanAndroid_01Client {
     @SignCheck
     @OperationType("com.yqhd.wanAndroid.getKnowledgeTree")
     public String treeJsonGet ();
+
+    @SignCheck
+    @OperationType("com.yqhd.wanAndroid.getNavigations")
+    public String naviJsonGet ();
 }

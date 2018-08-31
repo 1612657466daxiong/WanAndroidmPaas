@@ -44,4 +44,13 @@ public class RequstDao {
                 .functionType(ReqestType.GET_TREE_JSON,null)
                 .monitor(listener);
     }
+
+
+    public static void GetNavigation(Context context,MPaasAPIUtils.OnCompleteListener<String > listener){
+        MPaasAPIUtils<String > utils = new MPaasAPIUtils<>(context);
+        utils.setTimeOut(6000)
+                .targetClass(String.class)
+                .functionType(ReqestType.GET_NAVIGATION,null)
+                .monitor(listener);
+    }
 }

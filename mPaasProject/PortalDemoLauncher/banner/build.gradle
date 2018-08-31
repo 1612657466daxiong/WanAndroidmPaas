@@ -5,20 +5,20 @@ version = "1.4.10"
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "19.1.0"
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 11
         targetSdkVersion 25
         versionCode 41
         versionName version
     }
-    buildTypes {
-        release {
-            minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
+//    buildTypes {
+//        release {
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+//    }
     lintOptions {
         abortOnError false
     }
@@ -26,7 +26,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    provided 'com.android.support:support-v4:+'
+    provided 'com.android.support:support-v4:25.0.0'
 //
 }
 
