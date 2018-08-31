@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PortalDemoLauncher.iml" filepath="$PROJECT_DIR$/PortalDemoLauncher.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner/banner.iml" filepath="$PROJECT_DIR$/banner/banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/portaldemo-build.iml" filepath="$PROJECT_DIR$/app/portaldemo-build.iml" />
     </modules>
   </component>

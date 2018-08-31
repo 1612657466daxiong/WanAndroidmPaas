@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.youth.banner.loader.ImageLoader;
 
+
 /**
  * Author : xiongqiwei
  * Date : 2018/8/27

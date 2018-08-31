@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.yqhd.wanandroid.launcher.R;
+import com.yqhd.wanandroid.launcher.adapter.holder.FeedArticleViewHolder;
 import com.yqhd.wanandroid.launcher.bean.FeedArticleData;
 
 import java.util.List;

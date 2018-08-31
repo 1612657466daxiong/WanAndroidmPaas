@@ -1,2 +1,2 @@
-include ':api', ':portaldemo-build'
+include ':api', ':portaldemo-build', ':banner'
 project(':portaldemo-build').projectDir = new File('app')

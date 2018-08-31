@@ -29,4 +29,8 @@ public interface Yqhd_wanAndroid_01Client {
     @SignCheck
     @OperationType("com.yqhd.wanAndroid.feedList")
     public String articleListPageJsonGet (ArticleListPageJsonGetReq requestParam);
+
+    @SignCheck
+    @OperationType("com.yqhd.wanAndroid.getKnowledgeTree")
+    public String treeJsonGet ();
 }

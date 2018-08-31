@@ -146,6 +146,9 @@ public class MPaasAPIUtils<T> {
             case ReqestType.GET_HOME_FEED_LIST://首页文章列表数据
                 s=mYqClient.articleListPageJsonGet((ArticleListPageJsonGetReq) params);
                 break;
+            case ReqestType.GET_TREE_JSON://获取知识体系
+                s=mYqClient.treeJsonGet();
+                break;
         }
         if (mClazz.equals(String.class)){
             Message msg = Message.obtain();
