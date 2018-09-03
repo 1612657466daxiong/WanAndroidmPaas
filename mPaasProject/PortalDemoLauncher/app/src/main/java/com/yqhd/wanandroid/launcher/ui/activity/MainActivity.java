@@ -1,7 +1,6 @@
 package com.yqhd.wanandroid.launcher.ui.activity;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
+
 import android.os.Bundle;
 
 
@@ -14,6 +13,9 @@ import com.yqhd.wanandroid.launcher.ui.fragment.ProjectFragment;
 import com.yqhd.wanandroid.launcher.utils.StatusBarUtil;
 
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
@@ -28,7 +30,7 @@ import android.widget.TextView;
 /**
  * Created by mPaaS on 16/9/28.
  */
-public class MainActivity extends BaseActivity {
+public class MainActivity extends FragmentActivity {
     DrawerLayout  mDrawableLayout;
     Toolbar mToolbar;
     TextView mTitleTv;
@@ -93,7 +95,7 @@ public class MainActivity extends BaseActivity {
     }
 
     private void setDefaultFragment() {
-        FragmentManager fragmentManager =getFragmentManager();
+        FragmentManager fragmentManager =getSupportFragmentManager();
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         mHomePageFragment = new HomePageFragment();
         transaction.replace(R.id.fragment_group, mHomePageFragment);
@@ -114,7 +116,8 @@ public class MainActivity extends BaseActivity {
         rdgTab.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
-                FragmentTransaction transaction =getFragmentManager().beginTransaction();
+                FragmentTransaction transaction =getSupportFragmentManager().beginTransaction();
+
                 hideAllFragment(transaction);
                 switch (i){
                     case R.id.rbtn_home_pager:

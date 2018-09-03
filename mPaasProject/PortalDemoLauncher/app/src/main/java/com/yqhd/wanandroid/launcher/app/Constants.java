@@ -17,4 +17,13 @@ public class Constants {
     public static final String IS_COMMON_SITE = "is_common_site";
 
     public static final String IS_COLLECT_PAGE = "is_collect_page";
+
+
+
+    /**
+     * Intent params
+     */
+    public static final String ARG_PARAM1 = "param1";
+
+    public static final String ARG_PARAM2 = "param2";
 }

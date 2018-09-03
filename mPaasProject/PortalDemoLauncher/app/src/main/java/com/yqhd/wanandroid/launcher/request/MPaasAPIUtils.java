@@ -11,6 +11,7 @@ import com.alipay.mobile.framework.service.common.RpcService;
 import com.alipay.mobile.framework.service.common.TaskScheduleService;
 import com.google.gson.Gson;
 import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
+import com.yqhd.wanandroid.launcher.request.req.ProjectListReq;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
 import com.yqhd.wanandroid.launcher.request.req.UserRegisterPostReq;
 
@@ -51,7 +52,7 @@ public class MPaasAPIUtils<T> {
                     microAppContext = LauncherApplicationAgent.getInstance()
                             .getMicroApplicationContext();
                     //2. 获取RpcService
-                   rpcService = microAppContext
+                    rpcService = microAppContext
                             .findServiceByInterface(RpcService.class.getName());
                     taskServie = microAppContext.findServiceByInterface(TaskScheduleService.class.getName());
                     mYqClient = rpcService.getRpcProxy(Yqhd_wanAndroid_01Client.class);
@@ -65,15 +66,15 @@ public class MPaasAPIUtils<T> {
         mHandler = new Handler( LauncherApplicationAgent.getInstance().getApplicationContext().getMainLooper()) {
             @Override
             public void handleMessage(Message msg) {
-               switch (msg.what){
-                   case RESULT_ERROR:
-                       mListener.onError(msg.obj==null?msg.toString():msg.obj.toString());
-                       break;
-                   case RESULT_SUCCESS:
-                       T result = (T) msg.obj;
-                       mListener.onSuccess(result);
-                       break;
-               }
+                switch (msg.what){
+                    case RESULT_ERROR:
+                        mListener.onError(msg.obj==null?msg.toString():msg.obj.toString());
+                        break;
+                    case RESULT_SUCCESS:
+                        T result = (T) msg.obj;
+                        mListener.onSuccess(result);
+                        break;
+                }
             }
         };
     }
@@ -151,6 +152,12 @@ public class MPaasAPIUtils<T> {
                 break;
             case ReqestType.GET_NAVIGATION:
                 s = mYqClient.naviJsonGet();
+                break;
+            case ReqestType.GET_PROJECTTYPES:
+                s=mYqClient.projectTreeJsonGet();
+                break;
+            case ReqestType.GET_PROJECT_LIST:
+                s=mYqClient.projectListTypeJsonCidCidGet((ProjectListReq) params);
                 break;
         }
         if (mClazz.equals(String.class)){

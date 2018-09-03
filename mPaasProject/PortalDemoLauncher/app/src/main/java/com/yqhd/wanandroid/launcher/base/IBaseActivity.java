@@ -1,6 +1,7 @@
 package com.yqhd.wanandroid.launcher.base;
 
 import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
 
 import com.alipay.mobile.framework.app.ui.BaseActivity;
 

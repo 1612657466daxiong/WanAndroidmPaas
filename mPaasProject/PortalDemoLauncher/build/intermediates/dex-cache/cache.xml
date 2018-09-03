@@ -30,6 +30,13 @@
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\gson-2.7_2e85dbf641c4a16c73925139bd4ff50ebb0450dd.jar" />
     </item>
     <item
+        jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.flyco.tablayout\FlycoTabLayout_Lib\2.1.2\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4744089ba76f30cbe4ee3aaa85f2b10003a11993">
+        <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.flyco.tablayout-FlycoTabLayout_Lib-2.1.2_43a7120d2938495777ecd3e09948ea22a75cb3f9.jar" />
+    </item>
+    <item
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshLayout\1.0.3\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
@@ -82,7 +89,7 @@
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\PortalDemoLauncher\api\unspecified\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="a745634a9f46eaf3efa9ea9a26054eab829734c2">
+        sha1="53ac88279aee7a4c87550ac277562eeee93ef048">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\PortalDemoLauncher-api-unspecified_fa533639aa8cc439ec02030a65a2b83cda4965fb.jar" />
     </item>
     <item
@@ -110,7 +117,7 @@
         jar="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.10\jars\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="baf4808850cec4ffcfddad2dbb312ea1abdb4bf6">
+        sha1="23a346b474c71c54cdf6e46056ff25e76f161db4">
         <dex dex="E:\WanAndroid\mPaasProject\PortalDemoLauncher\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.10_4c063205f7ecde3a30c9d5ab101ff7eb0b683f70.jar" />
     </item>
     <item

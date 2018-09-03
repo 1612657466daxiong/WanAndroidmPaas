@@ -5,6 +5,7 @@ import android.content.Context;
 import com.yqhd.wanandroid.launcher.bean.Result;
 import com.yqhd.wanandroid.launcher.bean.User;
 import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
+import com.yqhd.wanandroid.launcher.request.req.ProjectListReq;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
 
 /**
@@ -51,6 +52,22 @@ public class RequstDao {
         utils.setTimeOut(6000)
                 .targetClass(String.class)
                 .functionType(ReqestType.GET_NAVIGATION,null)
+                .monitor(listener);
+    }
+
+    public static void GetProjectTypes(Context context,MPaasAPIUtils.OnCompleteListener<String> listener){
+        MPaasAPIUtils<String> utils = new MPaasAPIUtils<>(context);
+        utils.setTimeOut(5000)
+                .targetClass(String.class)
+                .functionType(ReqestType.GET_PROJECTTYPES,null)
+                .monitor(listener);
+    }
+
+    public static void GetProjectList(Context context, ProjectListReq req, MPaasAPIUtils.OnCompleteListener<String> listener){
+        MPaasAPIUtils<String > utils = new MPaasAPIUtils<>(context);
+        utils.setTimeOut(3000)
+                .targetClass(String.class)
+                .functionType(ReqestType.GET_PROJECT_LIST,req)
                 .monitor(listener);
     }
 }

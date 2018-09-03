@@ -12,4 +12,6 @@ public interface ReqestType {
     int GET_HOME_FEED_LIST = 4;
     int GET_TREE_JSON = 5;
     int GET_NAVIGATION =6;
+    int GET_PROJECTTYPES=7;
+    int GET_PROJECT_LIST = 8;
 }

@@ -7,6 +7,7 @@ import com.alipay.mobile.framework.service.annotation.OperationType;
 import com.alipay.mobile.framework.service.annotation.SignCheck;
 
 import com.yqhd.wanandroid.launcher.request.req.ArticleListPageJsonGetReq;
+import com.yqhd.wanandroid.launcher.request.req.ProjectListReq;
 import com.yqhd.wanandroid.launcher.request.req.UserLoginPostReq;
 import com.yqhd.wanandroid.launcher.request.req.UserRegisterPostReq;
 
@@ -37,4 +38,13 @@ public interface Yqhd_wanAndroid_01Client {
     @SignCheck
     @OperationType("com.yqhd.wanAndroid.getNavigations")
     public String naviJsonGet ();
+
+    @SignCheck
+    @OperationType("com.yqhd.wanAndroid.getProjectTypes")
+    public String projectTreeJsonGet ();
+
+
+    @SignCheck
+    @OperationType("com.yqhd.wanAndroid.getProjectList")
+    public String projectListTypeJsonCidCidGet (ProjectListReq requestParam);
 }
